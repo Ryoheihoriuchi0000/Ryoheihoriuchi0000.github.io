@@ -15,8 +15,10 @@ under the AdMob publisher account `pub-8966340827917305`.
 
 ## SELECT
 
-- [Privacy Policy](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
-- [Support](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
+- Privacy Policy (日本語) — [Select-PRIVACY_POLICY-ios.md](./Select-PRIVACY_POLICY-ios.md)
+- Privacy Policy (English) — [Select-PRIVACY_POLICY-ios-en.md](./Select-PRIVACY_POLICY-ios-en.md)
+- Support (日本語) — [Select-SUPPORT-ios.md](./Select-SUPPORT-ios.md)
+- Support (English) — [Select-SUPPORT-ios-en.md](./Select-SUPPORT-ios-en.md)
 
 ## Shared
 
