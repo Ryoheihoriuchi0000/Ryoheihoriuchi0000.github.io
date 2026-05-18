@@ -13,6 +13,11 @@ under the AdMob publisher account `pub-8966340827917305`.
 - [Privacy Policy](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
 - [Support](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
 
+## SELECT
+
+- [Privacy Policy](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
+- [Support](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
+
 ## Shared
 
 - `app-ads.txt` — Google AdMob authorized seller declaration (IAB Tech Lab spec).
