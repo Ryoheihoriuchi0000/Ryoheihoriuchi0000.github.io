@@ -15,10 +15,10 @@ under the AdMob publisher account `pub-8966340827917305`.
 
 ## SELECT
 
-- Privacy Policy (日本語) — [Select-PRIVACY_POLICY-ios.md](./Select-PRIVACY_POLICY-ios.md)
-- Privacy Policy (English) — [Select-PRIVACY_POLICY-ios-en.md](./Select-PRIVACY_POLICY-ios-en.md)
-- Support (日本語) — [Select-SUPPORT-ios.md](./Select-SUPPORT-ios.md)
-- Support (English) — [Select-SUPPORT-ios-en.md](./Select-SUPPORT-ios-en.md)
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios.md) — `Select-PRIVACY_POLICY-ios.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-en.md) — `Select-PRIVACY_POLICY-ios-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios.md) — `Select-SUPPORT-ios.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios-en.md) — `Select-SUPPORT-ios-en.md`
 
 ## Shared
 
