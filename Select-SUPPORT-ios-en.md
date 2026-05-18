@@ -8,7 +8,7 @@ Thank you for using SELECT.
 
 For questions, bug reports, or feature requests, please reach out to the email below.
 
-**Email:** select2026@outlook.jp
+**Email:** russell2026@outlook.jp
 
 Including "SELECT feedback" in the subject line helps us respond faster.
 
