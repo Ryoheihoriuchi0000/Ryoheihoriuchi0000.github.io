@@ -7,12 +7,15 @@ under the AdMob publisher account `pub-8966340827917305`.
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/privacy.md) — `privacy.md`
 - [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/privacy-en.md) — `privacy-en.md`
-- [Support](https://ryoheihoriuchi0000.github.io/support.md) — `support.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/support.md) — `support.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/support-en.md) — `support-en.md`
 
 ## Russell
 
-- [Privacy Policy](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
-- [Support](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/russell-privacy-en.md) — `russell-privacy-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/russell-support-en.md) — `russell-support-en.md`
 
 ## SELECT
 
