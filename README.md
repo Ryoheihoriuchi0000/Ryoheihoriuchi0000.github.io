@@ -5,7 +5,8 @@ under the AdMob publisher account `pub-8966340827917305`.
 
 ## Darwin
 
-- [Privacy Policy](https://ryoheihoriuchi0000.github.io/privacy.md) — `privacy.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/privacy.md) — `privacy.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/privacy-en.md) — `privacy-en.md`
 - [Support](https://ryoheihoriuchi0000.github.io/support.md) — `support.md`
 
 ## Russell
