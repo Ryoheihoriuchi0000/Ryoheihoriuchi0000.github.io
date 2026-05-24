@@ -1,6 +1,6 @@
 # Privacy Policy (iOS)
 
-**Last updated:** May 19, 2026
+**Last updated:** May 24, 2026
 
 SELECT (the "App") respects user privacy. This policy explains what information the iOS version of the App collects and how it is used.
 
@@ -46,29 +46,18 @@ When you register an app, its icon is downloaded from Apple's CDN and cached ins
 
 ---
 
-## 4. iCloud Sync (Pro feature only)
+## 4. iCloud Sync
 
-When you purchase Pro and enable iCloud sync, your SwiftData store is encrypted and saved to your own **CloudKit Private Database** (a private area under your own Apple ID), and synced across your Apple devices.
-
-- Storage: Apple CloudKit, in your personal iCloud account
-- Access: **only you**. Neither the App developer nor any third party can access your CloudKit data.
-- Encryption: TLS in transit, Apple-managed encryption at rest
-- Disable: iOS Settings → [Your Name] → iCloud → SELECT (turn off)
-
-Free users never use this feature; data stays entirely on-device.
+Your data is stored in your own CloudKit Private Database (a private area under your Apple ID). This applies to all users regardless of Pro status.
+Neither the developer nor any third party can access your CloudKit data.
 
 ---
 
-## 5. Widget Launch (Shortcuts.app integration)
+## 5. Widget Launch
 
-Tapping a tile in the widget launches the target app via Apple's built-in **Shortcuts.app**.
-
-- Path: SELECT widget → SELECT host app (briefly) → Shortcuts.app → target app
-- Sent: only the **bundle identifier** of the target app (e.g. `jp.ne.paypay.app`)
-- Everything happens entirely on the device
-- Nothing is sent to Apple servers nor to the App developer
-
-This requires installing a shortcut named **SELECT Widgets** into Shortcuts.app one time. The shortcut is an Apple-signed definition file distributed via iCloud.
+Tapping a tile in the widget hands the target app's bundle identifier to iOS LaunchServices to launch the app.
+No network traffic is generated, and no information other than the target bundle identifier leaves the device.
+Optionally, an integration named "SELECT Widgets" lets you launch user-authored Shortcuts. The default launch path is unaffected by whether you install it.
 
 ---
 
