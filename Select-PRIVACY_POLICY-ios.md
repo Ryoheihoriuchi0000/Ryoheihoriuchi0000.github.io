@@ -46,16 +46,10 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 ---
 
-## 4. iCloud 同期 (Pro 機能のみ)
+## 4. iCloud 同期
 
-Pro 版を購入すると、SwiftData の内容が **CloudKit Private Database** (ユーザーご自身の Apple ID 配下のプライベート領域) に暗号化保存され、複数の Apple デバイス間で同期されます。
-
-- 保存先: Apple の CloudKit (ユーザーの iCloud アカウント)
-- アクセス権限: **ユーザー本人のみ**。本アプリ開発者を含む第三者は、ユーザーの CloudKit データにアクセスできません
-- 暗号化: 通信時 TLS、保存時 Apple 標準暗号化
-- 無効化: iOS の「設定 → ユーザー名 → iCloud → SELECT」で同期を停止可能
-
-無料版ではこの機能は使用されず、データは端末内のみに留まります。
+データは CloudKit Private Database (Apple ID 配下のプライベート領域) に保存・同期されます。Pro 版の有無に関わらず、全てのユーザーが iCloud 同期の対象です。
+本アプリの開発者を含む第三者は、ユーザーの CloudKit データに一切アクセスできません。
 
 ---
 
