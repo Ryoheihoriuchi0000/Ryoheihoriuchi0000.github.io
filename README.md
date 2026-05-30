@@ -1,7 +1,7 @@
-# Public Site for iOS Apps
+# Public Site for iOS / macOS Apps
 
-This repository hosts public-facing information for iOS apps published
-under the AdMob publisher account `pub-8966340827917305`.
+This repository hosts public-facing information for iOS and macOS apps
+published under the AdMob publisher account `pub-8966340827917305`.
 
 ## Darwin
 
@@ -19,10 +19,22 @@ under the AdMob publisher account `pub-8966340827917305`.
 
 ## SELECT
 
+### iOS
+
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios.md) — `Select-PRIVACY_POLICY-ios.md`
 - [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-en.md) — `Select-PRIVACY_POLICY-ios-en.md`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios.md) — `Select-SUPPORT-ios.md`
 - [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios-en.md) — `Select-SUPPORT-ios-en.md`
+
+### macOS
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac.md) — `Select-PRIVACY_POLICY-mac.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac-en.md) — `Select-PRIVACY_POLICY-mac-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac.md) — `Select-SUPPORT-mac.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac-en.md) — `Select-SUPPORT-mac-en.md`
+
+> 利用規約 (Terms of Service) は Mac App Store 配信のためアプリ内に同梱
+> されており、外部ホストはありません (オフライン版数ロックを優先)。
 
 ## Shared
 
