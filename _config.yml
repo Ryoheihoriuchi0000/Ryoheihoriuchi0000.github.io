@@ -1,0 +1,11 @@
+# GitHub Pages (Jekyll) site config.
+# Minimal — only what's needed for SEO verification.
+# Files without YAML front matter (the SELECT promo HTML, the .md docs
+# at root) are passed through verbatim, so no `exclude` is needed.
+
+title: "Public Site for iOS / macOS Apps"
+
+# Google Search Console verification (jekyll-seo-tag picks this up
+# automatically and injects <meta name="google-site-verification"> into
+# the <head> of every Jekyll-rendered page, including the root).
+google_site_verification: g7Nz163DdJn8DR7-S4YF2n8c9HiQta97TnipCl2Vrn8
