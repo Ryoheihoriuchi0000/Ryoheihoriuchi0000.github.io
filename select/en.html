@@ -107,6 +107,14 @@ section { padding: 140px 24px; }
     text-align: left;
 }
 .stat-number {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+}
+/* Apply the gradient + drop-shadow directly to the inner span — combining
+   background-clip:text on parent + position:relative on child breaks rendering
+   in some browsers, so the gradient sits on the span itself. */
+.stat-num-figure {
     font-size: clamp(96px, 16vw, 200px);
     font-weight: 900;
     letter-spacing: -0.04em;
@@ -117,9 +125,9 @@ section { padding: 140px 24px; }
     color: transparent;
     filter: drop-shadow(0 0 30px rgba(58, 130, 255, 0.45));
     position: relative;
+    z-index: 1;
     display: inline-block;
 }
-.stat-num-figure { position: relative; z-index: 1; }
 .stat-arrow {
     position: absolute;
     left: 50%;
@@ -132,7 +140,7 @@ section { padding: 140px 24px; }
     opacity: 0.55;
     filter: drop-shadow(0 0 18px rgba(58, 130, 255, 0.5));
 }
-.stat-number .unit {
+.stat-num-figure .unit {
     font-size: 0.45em;
     vertical-align: 0.55em;
     margin-left: 4px;
