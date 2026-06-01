@@ -119,6 +119,62 @@ section { padding: 140px 24px; }
     letter-spacing: 0.01em;
 }
 
+/* === Stat / social-proof strip === */
+.stat-section {
+    padding: 100px 24px;
+    text-align: center;
+    position: relative;
+    background:
+        radial-gradient(ellipse 50% 80% at 50% 50%, rgba(58, 130, 255, 0.10), transparent 70%);
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, transparent, var(--line) 30%, var(--line) 70%, transparent) 1;
+}
+.stat-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: clamp(28px, 6vw, 80px);
+    text-align: left;
+}
+.stat-number {
+    font-size: clamp(96px, 16vw, 200px);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    background: linear-gradient(135deg, #6ea9ff 0%, #a8c5ff 40%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 30px rgba(58, 130, 255, 0.45));
+}
+.stat-number .unit {
+    font-size: 0.45em;
+    vertical-align: 0.55em;
+    margin-left: 4px;
+    letter-spacing: 0;
+}
+.stat-copy {
+    font-size: clamp(17px, 1.9vw, 22px);
+    line-height: 1.7;
+    color: var(--muted);
+    margin: 0;
+}
+.stat-copy strong {
+    color: var(--fg);
+    font-weight: 700;
+}
+.stat-source {
+    margin: 14px 0 0;
+    font-size: 12px;
+    color: var(--dim);
+    letter-spacing: 0.04em;
+}
+@media (max-width: 720px) {
+    .stat-wrap { grid-template-columns: 1fr; text-align: center; gap: 18px; }
+}
+
 .cat-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 0 auto; max-width: 900px; }
 .cat {
     display: inline-flex; align-items: center; gap: 10px;
@@ -477,12 +533,12 @@ section { padding: 140px 24px; }
     padding: 8px;
     background: rgba(255,255,255,0.04);
     border: 1px solid var(--line);
-    border-radius: 999px;
+    border-radius: 16px;
     width: fit-content;
 }
 .tab-nav label {
     padding: 14px 32px;
-    border-radius: 999px;
+    border-radius: 10px;
     font-size: 17px; font-weight: 700;
     color: var(--muted);
     cursor: pointer;
@@ -866,6 +922,20 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     </div>
 </section>
 
+<!-- =================== STAT (social proof) =================== -->
+<section class="stat-section">
+    <div class="stat-wrap">
+        <div class="stat-number">92<span class="unit">%+</span></div>
+        <p class="stat-copy">
+            ユーザーが、SELECT によって<br>
+            スマホ操作時の <strong>依存感情</strong> や<br>
+            <strong>のめり込む感じ</strong> から<br>
+            解放されたと報告。
+        </p>
+        <p class="stat-source">※自社調べ (2026/5/31)</p>
+    </div>
+</section>
+
 <!-- =================== BIG STATEMENT =================== -->
 <section class="statement">
     <!-- 上半分: 色とりどり散布 (実ロゴ不使用、ジェネリック色面) -->
@@ -902,11 +972,12 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     <div class="wrap" style="max-width: 880px;">
         <div style="font-size: 12px; letter-spacing: 0.3em; color: var(--accent); text-transform: uppercase; font-weight: 700; margin-bottom: 18px;">FIVE VERBS</div>
         <h2 style="font-size: clamp(40px, 7vw, 88px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 24px;">
-            アプリは、5 つの動詞で<br>整理できる。
+            すべてのアプリは<br>5 つの動詞で<br>整理できる。
         </h2>
         <p style="font-size: clamp(16px, 1.8vw, 20px); color: var(--muted); margin: 0; max-width: 720px; margin-left: auto; margin-right: auto;">
-            雑多なホーム画面のアプリアイコンや適当なフォルダではなく、<br>
-            「自分が今、スマホやパソコンを開き、何をするか」で分ける。<br>
+            雑多なホーム画面のアプリアイコンや<br>
+            適当なフォルダではなく、<br>
+            スマホやパソコンを開き、何をするかで分ける。<br>
             あなたのデバイスにある何百ものアプリは、<br>
             必ずこの 5 つのどれかに入る。
         </p>
