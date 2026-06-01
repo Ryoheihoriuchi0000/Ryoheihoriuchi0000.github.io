@@ -116,6 +116,21 @@ section { padding: 140px 24px; }
     background-clip: text;
     color: transparent;
     filter: drop-shadow(0 0 30px rgba(58, 130, 255, 0.45));
+    position: relative;
+    display: inline-block;
+}
+.stat-num-figure { position: relative; z-index: 1; }
+.stat-arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    width: 135%;
+    height: 135%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.55;
+    filter: drop-shadow(0 0 18px rgba(58, 130, 255, 0.5));
 }
 .stat-number .unit {
     font-size: 0.45em;
@@ -763,7 +778,30 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
 <!-- STAT (social proof) -->
 <section class="stat-section">
     <div class="stat-wrap">
-        <div class="stat-number">92<span class="unit">%+</span></div>
+        <div class="stat-number">
+            <svg class="stat-arrow" viewBox="0 0 320 200" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <linearGradient id="stat-arrow-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#3a82ff" stop-opacity="0.0"/>
+                        <stop offset="20%" stop-color="#3a82ff" stop-opacity="0.9"/>
+                        <stop offset="60%" stop-color="#a8c5ff" stop-opacity="1"/>
+                        <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+                    </linearGradient>
+                    <marker id="stat-arrow-head" viewBox="0 0 12 12" refX="6" refY="6"
+                            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                        <path d="M 0,0 L 12,6 L 0,12 z" fill="#ffffff"/>
+                    </marker>
+                </defs>
+                <polyline points="10,180 50,150 80,165 120,115 150,135 195,75 230,95 290,15"
+                          fill="none"
+                          stroke="url(#stat-arrow-grad)"
+                          stroke-width="7"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          marker-end="url(#stat-arrow-head)"/>
+            </svg>
+            <span class="stat-num-figure">92<span class="unit">%+</span></span>
+        </div>
         <p class="stat-copy">
             of users say the urge to<br>
             <strong>"open the phone for no reason"</strong> and<br>
