@@ -381,25 +381,24 @@ section { padding: 140px 24px; }
 .verb .examples .ex:nth-child(8n+7) { background: linear-gradient(135deg, #9ce0d3 0%, #bce8df 100%); }
 .verb .examples .ex:nth-child(8n+8) { background: linear-gradient(135deg, #efb7f3 0%, #f6d1f8 100%); }
 
-/* === Statement の下半分に並ぶ 5 PNG (整然・秩序) === */
-.statement .verb-icons-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: clamp(20px, 4vw, 40px);
-    margin: 28px auto 36px;
-    max-width: 900px;
-    position: relative; z-index: 1;
+/* === Statement の "問いかける" h2 周りに 5 アイコンを散布 === */
+.statement .verb-icons-scatter {
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: 0;
 }
-.statement .verb-icons-row img {
-    height: clamp(60px, 9vw, 96px);
+.statement .verb-icons-scatter img {
+    position: absolute;
+    height: clamp(64px, 9vw, 120px);
     width: auto;
     filter: invert(1);
-    opacity: 0.92;
-    transition: transform 0.25s ease;
+    opacity: 0.18;
+    transform: translate(-50%, -50%) rotate(var(--rot, 0));
 }
-.statement .verb-icons-row img:hover { transform: translateY(-4px); }
+@media (max-width: 720px) {
+    .statement .verb-icons-scatter img { height: clamp(44px, 11vw, 72px); opacity: 0.14; }
+}
 
 /* === 5 動詞をグラデで横並びにした概要タブ === */
 .verb-tabs-row {
@@ -927,10 +926,10 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     <div class="stat-wrap">
         <div class="stat-number">92<span class="unit">%+</span></div>
         <p class="stat-copy">
-            ユーザーが、SELECT によって<br>
-            スマホ操作時の <strong>依存感情</strong> や<br>
-            <strong>のめり込む感じ</strong> から<br>
-            解放されたと報告。
+            のユーザーが、SELECT を使い始めてから<br>
+            <strong>「意味なく開いてしまう癖」</strong> と<br>
+            <strong>「時間が溶けていく感覚」</strong> が<br>
+            減ったと回答。
         </p>
         <p class="stat-source">※自社調べ (2026/5/31)</p>
     </div>
@@ -955,13 +954,13 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     <p class="crash">ホーム画面を開いた瞬間、<br>脳がクラッシュする。</p>
     <div class="vs">↓</div>
 
-    <!-- 下半分: 5 つの SELECT カテゴリアイコンを整然と並べる -->
-    <div class="verb-icons-row" aria-hidden="true">
-        <img src="assets/pict_check.png" alt="">
-        <img src="assets/pict_record.png" alt="">
-        <img src="assets/pict_settings.png" alt="">
-        <img src="assets/pict_communicate.png" alt="">
-        <img src="assets/pict_play.png" alt="">
+    <!-- 下半分: 5 つの SELECT カテゴリアイコンを「問いかける」h2 の周りに散布 -->
+    <div class="verb-icons-scatter" aria-hidden="true">
+        <img src="assets/pict_check.png"       style="top: 18%; left: 10%; --rot: -10deg;">
+        <img src="assets/pict_record.png"      style="top: 78%; left: 16%; --rot: 8deg;">
+        <img src="assets/pict_settings.png"    style="top: 12%; left: 88%; --rot: 6deg;">
+        <img src="assets/pict_communicate.png" style="top: 72%; left: 86%; --rot: -7deg;">
+        <img src="assets/pict_play.png"        style="top: 50%; left: 6%;  --rot: 12deg;">
     </div>
 
     <h2 class="accent">君は今何のために<br>デバイスを使うのか<br>問いかける。</h2>

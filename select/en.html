@@ -208,24 +208,24 @@ section { padding: 140px 24px; }
 }
 
 /* === Lower-half: 5 PNG verb icons in an orderly row === */
-.statement .verb-icons-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: clamp(20px, 4vw, 40px);
-    margin: 28px auto 36px;
-    max-width: 900px;
-    position: relative; z-index: 1;
+/* === 5 verb icons scattered around the "ask yourself" h2 === */
+.statement .verb-icons-scatter {
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: 0;
 }
-.statement .verb-icons-row img {
-    height: clamp(60px, 9vw, 96px);
+.statement .verb-icons-scatter img {
+    position: absolute;
+    height: clamp(64px, 9vw, 120px);
     width: auto;
     filter: invert(1);
-    opacity: 0.92;
-    transition: transform 0.25s ease;
+    opacity: 0.18;
+    transform: translate(-50%, -50%) rotate(var(--rot, 0));
 }
-.statement .verb-icons-row img:hover { transform: translateY(-4px); }
+@media (max-width: 720px) {
+    .statement .verb-icons-scatter img { height: clamp(44px, 11vw, 72px); opacity: 0.14; }
+}
 
 .scene { padding: 120px 24px; border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, transparent, var(--line) 30%, var(--line) 70%, transparent) 1; }
@@ -765,10 +765,10 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     <div class="stat-wrap">
         <div class="stat-number">92<span class="unit">%+</span></div>
         <p class="stat-copy">
-            of users report being freed from feelings of<br>
-            <strong>phone dependency</strong> and<br>
-            <strong>compulsive scrolling</strong><br>
-            after switching to SELECT.
+            of users say the urge to<br>
+            <strong>"open the phone for no reason"</strong> and<br>
+            <strong>"lose track of time scrolling"</strong><br>
+            has eased since starting SELECT.
         </p>
         <p class="stat-source">* Internal survey, May 31, 2026</p>
     </div>
@@ -793,13 +793,13 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     <p class="crash">The moment you open it,<br>your brain crashes.</p>
     <div class="vs">↓</div>
 
-    <!-- Lower half: the 5 SELECT category icons arranged neatly -->
-    <div class="verb-icons-row" aria-hidden="true">
-        <img src="assets/pict_check.png" alt="">
-        <img src="assets/pict_record.png" alt="">
-        <img src="assets/pict_settings.png" alt="">
-        <img src="assets/pict_communicate.png" alt="">
-        <img src="assets/pict_play.png" alt="">
+    <!-- Lower half: the 5 SELECT category icons scattered around the "ask yourself" h2 -->
+    <div class="verb-icons-scatter" aria-hidden="true">
+        <img src="assets/pict_check.png"       style="top: 18%; left: 10%; --rot: -10deg;">
+        <img src="assets/pict_record.png"      style="top: 78%; left: 16%; --rot: 8deg;">
+        <img src="assets/pict_settings.png"    style="top: 12%; left: 88%; --rot: 6deg;">
+        <img src="assets/pict_communicate.png" style="top: 72%; left: 86%; --rot: -7deg;">
+        <img src="assets/pict_play.png"        style="top: 50%; left: 6%;  --rot: 12deg;">
     </div>
 
     <h2 class="accent">Ask yourself<br>why you're<br>using your device.</h2>
