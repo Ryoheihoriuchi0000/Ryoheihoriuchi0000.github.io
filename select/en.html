@@ -192,7 +192,23 @@ section { padding: 140px 24px; }
     line-height: 1.15;
     margin: 0 0 12px;
 }
-.statement .vs { font-size: clamp(24px, 4vw, 44px); color: var(--dim); margin: 32px 0; font-weight: 700; }
+.statement .vs {
+    font-size: clamp(56px, 9vw, 120px);
+    margin: 64px 0;
+    font-weight: 900;
+    line-height: 1;
+    background: linear-gradient(180deg, #6ea9ff 0%, #a8c5ff 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 24px rgba(58, 130, 255, 0.55));
+    animation: vs-bounce 1.6s ease-in-out infinite;
+}
+@keyframes vs-bounce {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(10px); }
+}
+@media (prefers-reduced-motion: reduce) { .statement .vs { animation: none; } }
 .statement .accent { color: var(--fg); }
 .statement .fade { color: var(--muted); }
 .statement .crash {
