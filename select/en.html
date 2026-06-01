@@ -107,14 +107,6 @@ section { padding: 140px 24px; }
     text-align: left;
 }
 .stat-number {
-    position: relative;
-    display: inline-block;
-    line-height: 1;
-}
-/* Apply the gradient + drop-shadow directly to the inner span — combining
-   background-clip:text on parent + position:relative on child breaks rendering
-   in some browsers, so the gradient sits on the span itself. */
-.stat-num-figure {
     font-size: clamp(96px, 16vw, 200px);
     font-weight: 900;
     letter-spacing: -0.04em;
@@ -124,9 +116,16 @@ section { padding: 140px 24px; }
     background-clip: text;
     color: transparent;
     filter: drop-shadow(0 0 30px rgba(58, 130, 255, 0.45));
+    /* Establish a stacking context so z-index:-1 on the SVG stays within. */
     position: relative;
-    z-index: 1;
+    z-index: 0;
     display: inline-block;
+}
+.stat-number .unit {
+    font-size: 0.45em;
+    vertical-align: 0.55em;
+    margin-left: 4px;
+    letter-spacing: 0;
 }
 .stat-arrow {
     position: absolute;
@@ -135,16 +134,10 @@ section { padding: 140px 24px; }
     transform: translate(-50%, -45%);
     width: 135%;
     height: 135%;
-    z-index: 0;
+    z-index: -1;
     pointer-events: none;
     opacity: 0.55;
     filter: drop-shadow(0 0 18px rgba(58, 130, 255, 0.5));
-}
-.stat-num-figure .unit {
-    font-size: 0.45em;
-    vertical-align: 0.55em;
-    margin-left: 4px;
-    letter-spacing: 0;
 }
 .stat-copy {
     font-size: clamp(17px, 1.9vw, 22px);
@@ -824,7 +817,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
                           stroke-linejoin="round"
                           marker-end="url(#stat-arrow-head)"/>
             </svg>
-            <span class="stat-num-figure">92<span class="unit">%+</span></span>
+            92<span class="unit">%+</span>
         </div>
         <p class="stat-copy">
             of users say the urge to<br>
@@ -850,18 +843,17 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
         <div class="blob" style="left: 78%; top: 38%; --rot: -7deg; --blur: 1px; background: linear-gradient(135deg, #ff7e5f, #feb47b); opacity: 0.7;"></div>
     </div>
 
-    <div class="small-label">A new kind of digital detox</div>
     <h2 class="fade">Pick an app<br>from a colorful<br>home screen.</h2>
     <p class="crash">The moment you open it,<br>your brain crashes.</p>
     <div class="vs">↓</div>
 
     <!-- Lower half: the 5 SELECT category icons scattered around the "ask yourself" h2 -->
     <div class="verb-icons-scatter" aria-hidden="true">
-        <img src="assets/pict_check.png"       style="top: 18%; left: 28%; --rot: -10deg;">
-        <img src="assets/pict_record.png"      style="top: 82%; left: 32%; --rot: 8deg;">
-        <img src="assets/pict_settings.png"    style="top: 14%; left: 72%; --rot: 6deg;">
-        <img src="assets/pict_communicate.png" style="top: 82%; left: 68%; --rot: -7deg;">
-        <img src="assets/pict_play.png"        style="top: 50%; left: 80%; --rot: 12deg;">
+        <img src="assets/pict_check.png"       style="top: 32%; left: 30%; --rot: -10deg;">
+        <img src="assets/pict_record.png"      style="top: 70%; left: 34%; --rot: 8deg;">
+        <img src="assets/pict_settings.png"    style="top: 30%; left: 70%; --rot: 6deg;">
+        <img src="assets/pict_communicate.png" style="top: 70%; left: 66%; --rot: -7deg;">
+        <img src="assets/pict_play.png"        style="top: 50%; left: 78%; --rot: 12deg;">
     </div>
 
     <h2 class="accent">Ask yourself<br>why you're<br>using your device.</h2>
