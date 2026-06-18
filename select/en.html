@@ -412,9 +412,27 @@ section { padding: 140px 24px; }
 /* Hide the faded background PNG watermark for now */
 .verb-grid .verb .visual,
 .verb-grid .verb .verb-icon { display: none; }
+/* Top-right verb icon on each card — same pict_*.png as the verb pills, white silhouette */
+.verb-card-icon {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: clamp(56px, 7vw, 88px);
+    height: auto;
+    filter: invert(1);
+    opacity: 0.92;
+    z-index: 1;
+    pointer-events: none;
+}
+.verb.v-receive    .verb-card-icon { filter: invert(1) drop-shadow(0 0 18px rgba(58,130,255,0.50)); }
+.verb.v-record     .verb-card-icon { filter: invert(1) drop-shadow(0 0 18px rgba(70,220,150,0.45)); }
+.verb.v-settings   .verb-card-icon { filter: invert(1) drop-shadow(0 0 18px rgba(255,180,60,0.45)); }
+.verb.v-communicate .verb-card-icon { filter: invert(1) drop-shadow(0 0 18px rgba(255,100,180,0.50)); }
+.verb.v-enjoy      .verb-card-icon { filter: invert(1) drop-shadow(0 0 18px rgba(255,130,80,0.50)); }
 @media (max-width: 820px) {
     .verb-grid { grid-template-columns: 1fr; gap: 20px; }
     .verb-grid .verb { padding: 48px 28px; border-radius: 24px; }
+    .verb-card-icon { top: 24px; right: 24px; width: clamp(48px, 12vw, 72px); }
 }
 
 .visual-iconfan { position: relative; width: 360px; height: 320px; }
@@ -886,6 +904,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
 <!-- VERB ROW 1: Receive / Record -->
 <div class="verb-grid">
     <section id="v-receive" class="verb v-receive">
+        <img class="verb-card-icon" src="assets/pict_check.png" alt="" aria-hidden="true">
         <div class="wrap">
             <div class="copy">
                 <div class="verb-label">Receive</div>
@@ -910,6 +929,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     </section>
 
     <section id="v-record" class="verb v-record">
+        <img class="verb-card-icon" src="assets/pict_record.png" alt="" aria-hidden="true">
         <div class="wrap">
             <div class="copy">
                 <div class="verb-label">Record</div>
@@ -938,6 +958,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
 <!-- VERB ROW 2: Communicate / Enjoy -->
 <div class="verb-grid">
     <section id="v-communicate" class="verb v-communicate">
+        <img class="verb-card-icon" src="assets/pict_communicate.png" alt="" aria-hidden="true">
         <div class="wrap">
             <div class="copy">
                 <div class="verb-label">Communicate</div>
@@ -963,6 +984,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     </section>
 
     <section id="v-enjoy" class="verb v-enjoy">
+        <img class="verb-card-icon" src="assets/pict_play.png" alt="" aria-hidden="true">
         <div class="wrap">
             <div class="copy">
                 <div class="verb-label">Enjoy</div>
@@ -991,6 +1013,7 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
 <!-- VERB ROW 3: Settings (alone) -->
 <div class="verb-grid single">
     <section id="v-settings" class="verb v-settings">
+        <img class="verb-card-icon" src="assets/pict_settings.png" alt="" aria-hidden="true">
         <div class="wrap">
             <div class="copy">
                 <div class="verb-label">Settings</div>
