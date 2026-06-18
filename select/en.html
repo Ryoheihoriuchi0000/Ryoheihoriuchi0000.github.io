@@ -156,7 +156,26 @@ section { padding: 140px 24px; }
     .stat-wrap { grid-template-columns: 1fr; text-align: center; gap: 18px; }
 }
 
-.cat-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 0 auto; max-width: 1000px; }
+/* cat-row: always 2-2-1 (Receive/Record → Communicate/Enjoy → Settings alone).
+   All pills share a min-width so they align cleanly. */
+.cat-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.cat-row .row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cat-row .cat {
+    min-width: 168px;
+    justify-content: center;
+}
 .cat {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 9px 18px 9px 12px;
@@ -832,11 +851,17 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
     </div>
 
     <div class="cat-row">
-        <span class="cat"><img class="icon" src="assets/pict_check.png" alt="">Receive</span>
-        <span class="cat"><img class="icon" src="assets/pict_record.png" alt="">Record</span>
-        <span class="cat"><img class="icon" src="assets/pict_settings.png" alt="">Settings</span>
-        <span class="cat c-communicate"><img class="icon" src="assets/pict_communicate.png" alt="">Communicate</span>
-        <span class="cat"><img class="icon" src="assets/pict_play.png" alt="">Enjoy</span>
+        <div class="row">
+            <span class="cat"><img class="icon" src="assets/pict_check.png" alt="">Receive</span>
+            <span class="cat"><img class="icon" src="assets/pict_record.png" alt="">Record</span>
+        </div>
+        <div class="row">
+            <span class="cat c-communicate"><img class="icon" src="assets/pict_communicate.png" alt="">Communicate</span>
+            <span class="cat"><img class="icon" src="assets/pict_play.png" alt="">Enjoy</span>
+        </div>
+        <div class="row">
+            <span class="cat"><img class="icon" src="assets/pict_settings.png" alt="">Settings</span>
+        </div>
     </div>
 </section>
 
