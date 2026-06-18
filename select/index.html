@@ -429,6 +429,26 @@ section { padding: 140px 24px; }
     .statement .verb-icons-scatter img { height: clamp(44px, 11vw, 72px); opacity: 0.14; }
 }
 
+/* === FIVE VERBS 見出し直上の 5 アイコン横並び === */
+.five-verbs-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(20px, 4vw, 56px);
+    margin: 0 auto 44px;
+}
+.five-verbs-row img {
+    width: clamp(54px, 7.5vw, 96px);
+    height: auto;
+    opacity: 0.92;
+}
+.five-verbs-row img:nth-child(1) { filter: invert(1) drop-shadow(0 0 16px rgba(58,130,255,0.50)); }   /* Receive */
+.five-verbs-row img:nth-child(2) { filter: invert(1) drop-shadow(0 0 16px rgba(70,220,150,0.45)); }   /* Record */
+.five-verbs-row img:nth-child(3) { filter: invert(1) drop-shadow(0 0 16px rgba(255,100,180,0.50)); }  /* Communicate */
+.five-verbs-row img:nth-child(4) { filter: invert(1) drop-shadow(0 0 16px rgba(255,130,80,0.50)); }   /* Enjoy */
+.five-verbs-row img:nth-child(5) { filter: invert(1) drop-shadow(0 0 16px rgba(255,180,60,0.45)); }   /* Settings */
+
 /* === 5 動詞をグラデで横並びにした概要タブ === */
 .verb-tabs-row {
     display: flex;
@@ -1043,6 +1063,13 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
 <!-- =================== 5 VERBS — intro =================== -->
 <section style="padding: 120px 24px 40px; text-align: center;">
     <div class="wrap" style="max-width: 880px;">
+        <div class="five-verbs-row" aria-hidden="true">
+            <img src="assets/pict_check.png" alt="">
+            <img src="assets/pict_record.png" alt="">
+            <img src="assets/pict_communicate.png" alt="">
+            <img src="assets/pict_play.png" alt="">
+            <img src="assets/pict_settings.png" alt="">
+        </div>
         <div style="font-size: 12px; letter-spacing: 0.3em; color: var(--accent); text-transform: uppercase; font-weight: 700; margin-bottom: 18px;">FIVE VERBS</div>
         <h2 style="font-size: clamp(40px, 7vw, 88px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 24px;">
             すべてのアプリは<br>5 つの動詞で<br>整理できる。
