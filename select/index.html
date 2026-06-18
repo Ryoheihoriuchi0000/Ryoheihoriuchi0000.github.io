@@ -435,11 +435,11 @@ section { padding: 140px 24px; }
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: clamp(20px, 4vw, 56px);
+    gap: clamp(12px, 2.5vw, 32px);   /* gap 詰めてアイコンを大きく取る */
     margin: 0 auto 44px;
 }
 .five-verbs-row img {
-    width: clamp(54px, 7.5vw, 96px);
+    width: clamp(76px, 10.5vw, 132px);   /* base アイコンサイズ (Receive 等) */
     height: auto;
     opacity: 0.92;
 }
@@ -447,7 +447,10 @@ section { padding: 140px 24px; }
 .five-verbs-row img:nth-child(2) { filter: invert(1) drop-shadow(0 0 16px rgba(70,220,150,0.45)); }   /* Record */
 .five-verbs-row img:nth-child(3) { filter: invert(1) drop-shadow(0 0 16px rgba(255,100,180,0.50)); }  /* Communicate */
 .five-verbs-row img:nth-child(4) { filter: invert(1) drop-shadow(0 0 16px rgba(255,130,80,0.50)); }   /* Enjoy */
-.five-verbs-row img:nth-child(5) { filter: invert(1) drop-shadow(0 0 16px rgba(255,180,60,0.45)); }   /* Settings */
+.five-verbs-row img:nth-child(5) {                                                                   /* Settings — 小さめ維持 */
+    filter: invert(1) drop-shadow(0 0 16px rgba(255,180,60,0.45));
+    width: clamp(54px, 7.5vw, 96px);
+}
 
 /* === 5 動詞をグラデで横並びにした概要タブ === */
 .verb-tabs-row {
