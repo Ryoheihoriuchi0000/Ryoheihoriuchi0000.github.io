@@ -799,6 +799,71 @@ section { padding: 140px 24px; }
 .badge.coming-soon:hover { background: #000; }
 .badges.hero-badges { margin: 40px 0 32px; }
 
+/* === FAQ === */
+.faq {
+    padding: 120px 24px 100px;
+    background: radial-gradient(ellipse 60% 40% at 50% 20%, rgba(58,130,255,0.06), transparent 70%);
+}
+.faq .wrap { max-width: 880px; margin: 0 auto; }
+.faq-label {
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.faq h2 {
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0 0 14px;
+}
+.faq-lead {
+    text-align: center;
+    color: var(--muted);
+    margin: 0 0 56px;
+    font-size: 16px;
+}
+.faq-list { display: flex; flex-direction: column; }
+.faq-item {
+    border-bottom: 1px solid var(--line);
+}
+.faq-item summary {
+    cursor: pointer;
+    font-size: clamp(15px, 1.4vw, 18px);
+    font-weight: 700;
+    list-style: none;
+    padding: 22px 44px 22px 0;
+    position: relative;
+    color: var(--fg);
+    user-select: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--muted);
+    transition: transform 0.2s ease;
+}
+.faq-item[open] summary::after { content: "−"; }
+.faq-item summary:hover { color: var(--accent); }
+.faq-item p {
+    color: var(--muted);
+    font-size: 14.5px;
+    line-height: 1.85;
+    margin: 0 0 22px;
+    padding-right: 36px;
+}
+
 /* === Download (final CTA) === */
 .cta {
     padding: 160px 24px; text-align: center;
@@ -1375,6 +1440,87 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
             </svg>
             <span class="text"><span class="small">Get it on</span><span class="big">Google Play</span></span>
         </a>
+    </div>
+</section>
+
+<!-- =================== FAQ =================== -->
+<section class="faq">
+    <div class="wrap">
+        <div class="faq-label">FAQ</div>
+        <h2>よくある質問</h2>
+        <p class="faq-lead">SELECT について、よく寄せられる質問。</p>
+
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>SELECT って何ですか?</summary>
+                <p>
+                    SELECT は、アプリ・URL・ファイル・ショートカットを 5 つの動詞 (受信・記録・対話・楽しむ・調整) で整理して、ホーム画面・メニューバー・ウィジェットから素早く起動できる無料のアプリランチャーです。iPhone・Mac・Android で利用可能。シンプルなランチャーやミニマリスト ランチャーを探している方に向いた設計です。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>普通のホーム画面 / フォルダ管理と何が違いますか?</summary>
+                <p>
+                    通常のホーム画面ではアプリアイコンや適当なフォルダで整理しますが、SELECT は「自分が今何をするか」 (行動別 アプリ整理 / 用途別 アプリ) でアプリを仕分けします。アプリ フォルダの代わりに、アプリ カテゴリ分けやアプリ 目的別 整理の発想でホーム画面 整理を行います。ホーム画面 すっきり、ホーム画面 シンプル、ホーム画面 まとめる、ホーム画面 カスタマイズを実現したい方に向いた、新しいタイプの iPhone ホーム画面 整理ツールです。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>どんな人におすすめですか?</summary>
+                <p>
+                    スマホ 使いすぎ 対策やスマホ 依存 解消をしたい方、デジタルデトックス / デジタルデトックス アプリを探している方、集中力 アプリでスマホ 集中 アプリ環境を作りたい方、ホーム画面 アプリ 整理が苦手な方、アプリ 仕分けでスマホ 時間 管理を始めたい方、アプリアイコン 整理がいつまでも片付かない方など。ランチャーアプリ おすすめを探している方に幅広く向いています。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>対応プラットフォームは?</summary>
+                <p>
+                    iOS ランチャー (iPhone ランチャー)、macOS ランチャー (Mac ランチャー)、Android ランチャーの 3 プラットフォームに対応。同じ概念とデータが各 OS で動作します。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>ウィジェットには対応していますか?</summary>
+                <p>
+                    iOS ウィジェットに対応したウィジェット ランチャーです。ホーム画面 ウィジェット カスタム、ロック画面 ウィジェット、ウィジェット アプリ起動すべてに対応。1 タップでアプリへ直接到達できます。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>複数デバイスで同期できますか?</summary>
+                <p>
+                    iCloud 同期 アプリとして実装されており、iPhone・iPad・Mac 間でクロスデバイス アプリ管理が可能です。カテゴリ・モード・アイテムは Apple の private CloudKit 経由でリアルタイム同期され、すべて自分の iCloud アカウントの中にだけ保存されます。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>モード切替って何ができるんですか?</summary>
+                <p>
+                    仕事 アプリ 整理 / 家 用 アプリ / 集中モード アプリなど、シーン別 アプリ表示を切り替えられるモード切替 ランチャー機能。在宅勤務 ツールとして、仕事のオン・オフ切替に活用するユーザーも多くいます。集中したい時間帯だけ仕事関連アプリを表示する、プライベートタイムは娯楽系を前面に出す、といった切り分けが 1 タップで可能。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>スマホの使いすぎ・依存対策にどう効きますか?</summary>
+                <p>
+                    通知 減らす設計や時間 取られる アプリ 対策の発想で作られています。意図的 スマホ 使い方を促す UI により、無意識に開く癖や、だらだらと時間を消費してしまう習慣を減らします。アプリ 仕分けでスマホ 時間 管理を仕組み化したい方に最適です。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Mac でもメニューバーから使えますか?</summary>
+                <p>
+                    メニューバー アプリ Mac として、画面上端のメニューバーから 1 クリックで任意のアプリへ起動できます。Mac ランチャーとして Dock の代わりに使う、または Spotlight の補完として使う、いずれの使い方にも対応しています。
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>プライバシーやオフライン動作は?</summary>
+                <p>
+                    SELECT はプライバシー重視 アプリとして設計されており、必要最低限の情報以外はデバイス外に一切送りません。iOS / Mac 版は Apple の private CloudKit (利用者本人の iCloud アカウントのみアクセス可能) を使用し、Android 版はオフライン ランチャーとして完全オフラインで動作します。アナリティクスは送りません。
+                </p>
+            </details>
+        </div>
     </div>
 </section>
 

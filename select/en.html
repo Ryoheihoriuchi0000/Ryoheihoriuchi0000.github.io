@@ -681,6 +681,69 @@ section { padding: 140px 24px; }
 .badge.coming-soon:hover { background: #000; }
 .badges.hero-badges { margin: 40px 0 32px; }
 
+/* === FAQ === */
+.faq {
+    padding: 120px 24px 100px;
+    background: radial-gradient(ellipse 60% 40% at 50% 20%, rgba(58,130,255,0.06), transparent 70%);
+}
+.faq .wrap { max-width: 880px; margin: 0 auto; }
+.faq-label {
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.faq h2 {
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0 0 14px;
+}
+.faq-lead {
+    text-align: center;
+    color: var(--muted);
+    margin: 0 0 56px;
+    font-size: 16px;
+}
+.faq-list { display: flex; flex-direction: column; }
+.faq-item { border-bottom: 1px solid var(--line); }
+.faq-item summary {
+    cursor: pointer;
+    font-size: clamp(15px, 1.4vw, 18px);
+    font-weight: 700;
+    list-style: none;
+    padding: 22px 44px 22px 0;
+    position: relative;
+    color: var(--fg);
+    user-select: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--muted);
+    transition: transform 0.2s ease;
+}
+.faq-item[open] summary::after { content: "−"; }
+.faq-item summary:hover { color: var(--accent); }
+.faq-item p {
+    color: var(--muted);
+    font-size: 14.5px;
+    line-height: 1.85;
+    margin: 0 0 22px;
+    padding-right: 36px;
+}
+
 .cta {
     padding: 160px 24px; text-align: center;
     position: relative;
@@ -1217,6 +1280,87 @@ section h2[style*="font-size: clamp(40px, 6vw"] {
             </svg>
             <span class="text"><span class="small">Get it on</span><span class="big">Google Play</span></span>
         </a>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+    <div class="wrap">
+        <div class="faq-label">FAQ</div>
+        <h2>Frequently Asked Questions</h2>
+        <p class="faq-lead">Common questions about SELECT.</p>
+
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>What is SELECT?</summary>
+                <p>
+                    SELECT is a free app launcher that organizes apps, URLs, files, and shortcuts into five verb-based categories (Receive, Record, Communicate, Enjoy, Settings) — accessible from your home screen, menu bar, or widgets. Built as a minimal launcher for iPhone, Mac, and Android, it suits anyone looking for a simple launcher or a minimalist phone setup.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How is it different from regular folders and home-screen icons?</summary>
+                <p>
+                    Conventional iOS / macOS / Android home screens rely on app icons and improvised folders. SELECT lets you organize apps by what you're about to do — a purpose-based / intent-based launcher acting as the folder alternative iOS users have wanted for years. Instead of grouping by app type, you group by activity (action-based app organizer). Useful when you want to organize home screen, customize home screen, declutter home screen icons, or aim for a clean home screen — a different take on what an iPhone home screen organizer can be.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Who is this for?</summary>
+                <p>
+                    People wanting a digital detox app, focus app, or phone addiction recovery tool. Users looking to reduce screen time, work on screen time management, or use a distraction blocker. Minimalists chasing a minimalist phone, and anyone who wants more mindful phone use / intentional phone use.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What platforms are supported?</summary>
+                <p>
+                    SELECT ships as an iOS app launcher (iPhone launcher), a macOS launcher (Mac launcher), and an Android launcher. The same concept and data work across all three.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Does it support widgets?</summary>
+                <p>
+                    Yes. As an iOS widget launcher, SELECT supports home screen widget custom layouts, lock screen widget setups, and one-tap widget app launching.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Can I sync across devices?</summary>
+                <p>
+                    iCloud sync across iPhone, iPad, and Mac. Cross-device launcher state — categories, modes, items — stays in sync via your private CloudKit database (cross-device app management).
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What can I do with mode switching?</summary>
+                <p>
+                    Create separate modes for Work, Home, Focus, Travel, etc. — a mode switcher launcher / context-aware launcher that surfaces different apps in different contexts. Works as a focus mode launcher for deep work, a work mode launcher for office hours, or a home mode launcher for evenings. Many users adopt SELECT as one of their remote work tools.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How does it help with phone overuse?</summary>
+                <p>
+                    SELECT promotes mindful phone use / intentional phone use by adding a "why" step before app launches. It works as a soft distraction blocker and notification reducer for users working on reduce-screen-time goals or building healthier screen time management routines.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Can I use it from the Mac menu bar?</summary>
+                <p>
+                    Yes. The Mac menu bar launcher mode pins categories to the menu bar for one-click access — no need to leave your current app. Use it alongside the Dock or as a Dock replacement.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What about privacy and offline use?</summary>
+                <p>
+                    SELECT is a privacy-first launcher with no analytics and no third-party tracking — an ad-free launcher / no-analytics launcher. iOS and Mac use Apple's private CloudKit (encrypted, accessible only by the iCloud account owner). Android runs fully offline as an offline launcher with no network calls.
+                </p>
+            </details>
+        </div>
     </div>
 </section>
 
