@@ -26,17 +26,15 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 ## Polaris
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.md) — `jetlog-privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.md) — `jetlog-privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-privacy.md) — `Polaris-privacy.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Polaris-privacy-en.md) — `Polaris-privacy-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-support.md) — `Polaris-support.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Polaris-support-en.md) — `Polaris-support-en.md`
 
 ## Pace
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.md) — `jetlog-privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.md) — `jetlog-privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/pace-privacy.md) — `pace-privacy.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/pace-support.md) — `pace-support.md`
 
 ## SELECT
 
