@@ -24,6 +24,20 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
 - [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
 
+## Polaris
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.md) — `jetlog-privacy.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.md) — `jetlog-privacy-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
+
+## Pace
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.md) — `jetlog-privacy.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.md) — `jetlog-privacy-en.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
+
 ## SELECT
 
 ### iOS
