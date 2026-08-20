@@ -40,7 +40,7 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-privacy.md) — `moshimoji-privacy.md`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-support.md) — `moshimoji-support.md`
-- 
+
 
 ## SELECT
 
