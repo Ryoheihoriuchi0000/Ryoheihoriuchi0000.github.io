@@ -22,10 +22,10 @@ Putting "Rock Paper Question feedback" in the subject line helps us respond fast
 A. Two ways. Local puts two people on one device. Online matches you with someone you don't know. Pick one from the home screen.
 
 **Q. How long is a match?**  
-A. Five rounds. A tie is replayed and does not count as a round.
+A. There's no set number of rounds. Tap the X in the top left whenever you want to stop, and the results up to that point appear. A tie is replayed and does not count as a round.
 
 **Q. I don't want to answer this question**  
-A. Tap Pass. You get one per match.
+A. Tap Pass. There's no limit on how many times you can use it.
 
 **Q. I don't like the question cards I drew**  
 A. Tap Draw again. There's no limit. You can also skip the cards and ask your own question.
