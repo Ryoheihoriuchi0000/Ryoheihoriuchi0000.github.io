@@ -46,6 +46,12 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/utakata-privacy.md) — `utakata-privacy.md`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/utakata-support.md) — `utakata-support.md`
 
+## 質問じゃんけん
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/utakata-privacy.md) — `utakata-privacy.md`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/utakata-support.md) — `utakata-support.md`
+
+
 
 ## SELECT
 
