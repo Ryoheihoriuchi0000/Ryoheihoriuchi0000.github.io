@@ -51,6 +51,15 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/janken-privacy.md) — `janken-privacy.md`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/janken-support.md) — `janken-support.md`
 
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/janken-privacy-en.md) — `janken-privacy-en.md`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/janken-support-en.md) — `janken-support-en.md`
+
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/janken-privacy-ko.md) — `janken-privacy-ko.md`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/janken-support-ko.md) — `janken-support-ko.md`
+
+- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/janken-privacy-zh.md) — `janken-privacy-zh.md`
+- [Support (简体中文)](https://ryoheihoriuchi0000.github.io/janken-support-zh.md) — `janken-support-zh.md`
+
 
 
 ## SELECT
