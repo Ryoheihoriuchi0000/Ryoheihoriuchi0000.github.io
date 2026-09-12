@@ -5,65 +5,65 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 ## Darwin
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/privacy.md) — `privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/privacy-en.md) — `privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/support.md) — `support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/support-en.md) — `support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/privacy.html) — `privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/privacy-en.html) — `privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/support.html) — `support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/support-en.html) — `support-en.html`
 
 ## Russell
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/russell-privacy.md) — `russell-privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/russell-privacy-en.md) — `russell-privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/russell-support.md) — `russell-support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/russell-support-en.md) — `russell-support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/russell-privacy.html) — `russell-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/russell-privacy-en.html) — `russell-privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/russell-support.html) — `russell-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/russell-support-en.html) — `russell-support-en.html`
 
 ## Jet Log
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.md) — `jetlog-privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.md) — `jetlog-privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.md) — `jetlog-support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.md) — `jetlog-support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-privacy.html) — `jetlog-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/jetlog-privacy-en.html) — `jetlog-privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/jetlog-support.html) — `jetlog-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/jetlog-support-en.html) — `jetlog-support-en.html`
 
 ## Polaris
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-privacy.md) — `Polaris-privacy.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Polaris-privacy-en.md) — `Polaris-privacy-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-support.md) — `Polaris-support.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/Polaris-support-en.md) — `Polaris-support-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-privacy.html) — `Polaris-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Polaris-privacy-en.html) — `Polaris-privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Polaris-support.html) — `Polaris-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Polaris-support-en.html) — `Polaris-support-en.html`
 
 ## Pace
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/pace-privacy.md) — `pace-privacy.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/pace-support.md) — `pace-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/pace-privacy.html) — `pace-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/pace-support.html) — `pace-support.html`
 
 ## Stadius
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/stadius-privacy.md) — `stadius-privacy.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/stadius-support.md) — `stadius-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/stadius-privacy.html) — `stadius-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/stadius-support.html) — `stadius-support.html`
 
 ## もしもじ
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-privacy.md) — `moshimoji-privacy.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-support.md) — `moshimoji-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-privacy.html) — `moshimoji-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/moshimoji-support.html) — `moshimoji-support.html`
 
 ## うたかた
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/utakata-privacy.md) — `utakata-privacy.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/utakata-support.md) — `utakata-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/utakata-privacy.html) — `utakata-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/utakata-support.html) — `utakata-support.html`
 
 ## 質問じゃんけん
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/janken-privacy.md) — `janken-privacy.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/janken-support.md) — `janken-support.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/janken-privacy.html) — `janken-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/janken-support.html) — `janken-support.html`
 
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/janken-privacy-en.md) — `janken-privacy-en.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/janken-support-en.md) — `janken-support-en.md`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/janken-privacy-en.html) — `janken-privacy-en.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/janken-support-en.html) — `janken-support-en.html`
 
-- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/janken-privacy-ko.md) — `janken-privacy-ko.md`
-- [Support (한국어)](https://ryoheihoriuchi0000.github.io/janken-support-ko.md) — `janken-support-ko.md`
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/janken-privacy-ko.html) — `janken-privacy-ko.html`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/janken-support-ko.html) — `janken-support-ko.html`
 
-- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/janken-privacy-zh.md) — `janken-privacy-zh.md`
-- [Support (简体中文)](https://ryoheihoriuchi0000.github.io/janken-support-zh.md) — `janken-support-zh.md`
+- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/janken-privacy-zh.html) — `janken-privacy-zh.html`
+- [Support (简体中文)](https://ryoheihoriuchi0000.github.io/janken-support-zh.html) — `janken-support-zh.html`
 
 
 
@@ -71,17 +71,17 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 ### iOS
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios.md) — `Select-PRIVACY_POLICY-ios.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-en.md) — `Select-PRIVACY_POLICY-ios-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios.md) — `Select-SUPPORT-ios.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios-en.md) — `Select-SUPPORT-ios-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios.html) — `Select-PRIVACY_POLICY-ios.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-en.html) — `Select-PRIVACY_POLICY-ios-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios.html) — `Select-SUPPORT-ios.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios-en.html) — `Select-SUPPORT-ios-en.html`
 
 ### macOS
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac.md) — `Select-PRIVACY_POLICY-mac.md`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac-en.md) — `Select-PRIVACY_POLICY-mac-en.md`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac.md) — `Select-SUPPORT-mac.md`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac-en.md) — `Select-SUPPORT-mac-en.md`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac.html) — `Select-PRIVACY_POLICY-mac.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-mac-en.html) — `Select-PRIVACY_POLICY-mac-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac.html) — `Select-SUPPORT-mac.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-mac-en.html) — `Select-SUPPORT-mac-en.html`
 
 > 利用規約 (Terms of Service) は Mac App Store 配信のためアプリ内に同梱
 > されており、外部ホストはありません (オフライン版数ロックを優先)。
