@@ -88,7 +88,7 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 ## Shared
 
-- `app-ads.txt` — Google AdMob authorized seller declaration (IAB Tech Lab spec).
+- [ADS](https://ryoheihoriuchi0000.github.io/app-ads.txt) — `app-ads.txt` — Google AdMob authorized seller declaration (IAB Tech Lab spec).
   One line covers all apps under publisher `pub-8966340827917305`.
 
 Published via GitHub Pages at <https://ryoheihoriuchi0000.github.io/>.
