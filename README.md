@@ -36,10 +36,18 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/pace-privacy.html) — `pace-privacy.html`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/pace-support.html) — `pace-support.html`
 
-## Stadius
+## Studypress
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/stadius-privacy.html) — `stadius-privacy.html`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/stadius-support.html) — `stadius-support.html`
+
+## ExtraSticky
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Fusen-privacy.html) — `Fusen-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Fusen-privacy-en.html) — `Fusen-privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Fusen-support.html) — `Fusen-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/Fusen-support-en.html) — `Fusen-support-en.html`
+
 
 ## もしもじ
 
