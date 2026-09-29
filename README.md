@@ -43,10 +43,10 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 ## ExtraSticky
 
-- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Fusen-privacy.html) — `Fusen-privacy.html`
-- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Fusen-privacy-en.html) — `Fusen-privacy-en.html`
-- [Support (日本語)](https://ryoheihoriuchi0000.github.io/Fusen-support.html) — `Fusen-support.html`
-- [Support (English)](https://ryoheihoriuchi0000.github.io/Fusen-support-en.html) — `Fusen-support-en.html`
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/fusen-privacy.html) — `fusen-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/fusen-privacy-en.html) — `fusen-privacy-en.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/fusen-support.html) — `fusen-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/fusen-support-en.html) — `fusen-support-en.html`
 
 
 ## もしもじ
