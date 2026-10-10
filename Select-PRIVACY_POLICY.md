@@ -29,13 +29,11 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 
 ## 3. ネットワーク通信
 
-本アプリが行うネットワーク通信は、以下の2つに限られます。本アプリの開発者は独自のサーバーを持っていません。
-
-- **Firebase Authentication**(利用者数の把握。詳細は次項)
-- **Google Play 課金処理**(任意の支援を購入したときのみ)。Google Play Billing Library が Google のサーバーと通信します。これは Google が提供する標準機能であり、本アプリ自身が決済情報を送信・取得することはありません
+本アプリが行うネットワーク通信は **Firebase Authentication のみ** です(利用者数の把握。詳細は次項)。本アプリの開発者は独自のサーバーを持っていません。
 
 以下は **使用していません**。
 
+- アプリ内課金(本アプリのすべての機能は無料で、課金そのものがありません)
 - 解析ツール(Google Analytics、Firebase Analytics、Crashlytics 等)
 - 広告ネットワーク
 - 上記以外の外部サーバーとの通信
@@ -64,8 +62,7 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 
 本アプリは以下の権限を使用します:
 
-- `com.android.vending.BILLING`: Google Play 課金処理(任意の支援を購入したときのみ)
-- `android.permission.INTERNET`: Firebase Authentication および課金処理の通信(Firebase のライブラリによって自動的に追加されます)
+- `android.permission.INTERNET`: Firebase Authentication の通信(Firebase のライブラリによって自動的に追加されます)
 - `<queries>` 宣言: ランチャー機能のため、インストール済みアプリの基本情報を参照
 
 これら以外の権限(連絡先、位置情報、カメラ、マイク等)は一切要求しません。

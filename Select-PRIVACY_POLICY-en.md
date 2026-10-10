@@ -29,13 +29,11 @@ As a launcher, the App reads the icons and labels of installed apps via Android'
 
 ## 3. Network Communication
 
-The App makes only the following two kinds of network connection. The developer operates no server of their own.
-
-- **Firebase Authentication** (to measure usage — see below).
-- **Google Play billing**, only when you buy the optional support purchase. The Google Play Billing Library communicates with Google's servers. This is a standard feature provided by Google, and the App itself neither sends nor receives payment details.
+The only network connection the App makes is **Firebase Authentication** (to measure usage — see below). The developer operates no server of their own.
 
 The following are **not used**:
 
+- In-app purchases (every feature of the App is free; there is no billing at all)
 - Analytics tools (Google Analytics, Firebase Analytics, Crashlytics, etc.)
 - Advertising networks
 - Any other external server
@@ -64,8 +62,7 @@ The App does not knowingly collect personal information from children under 13.
 
 The App requests the following permissions:
 
-- `com.android.vending.BILLING`: For Google Play billing, only when you buy the optional support purchase.
-- `android.permission.INTERNET`: For Firebase Authentication and billing (added automatically by the Firebase libraries).
+- `android.permission.INTERNET`: For Firebase Authentication (added automatically by the Firebase libraries).
 - `<queries>` declaration: For launcher functionality, to read basic information about installed apps.
 
 No other permissions (contacts, location, camera, microphone, etc.) are requested.

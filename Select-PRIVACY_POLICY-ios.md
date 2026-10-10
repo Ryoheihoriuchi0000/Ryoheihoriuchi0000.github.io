@@ -67,14 +67,14 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - `https://itunes.apple.com/search`: アプリ検索 (ユーザーが「アイテム追加」ボタンを押した時のみ)
 - Apple CDN: アプリアイコン画像のダウンロード
 - Apple CloudKit: iCloud 同期
-- Apple StoreKit: 任意の支援を購入したときの課金処理
 - Google Firebase Authentication: 利用者数の把握 (詳細は 6-1)
 
 それ以外:
 - 本アプリ開発者のサーバーへの送信: **一切なし** (独自サーバー無し)
 - 解析ツール (Google Analytics、Firebase Analytics、Crashlytics、Sentry 等): **なし**
 - 広告ネットワーク: **なし**
-- 第三者の SDK: **Firebase Authentication のみ** (ほかは Apple 純正の StoreKit / CloudKit / WidgetKit / Shortcuts)
+- アプリ内課金: **なし** (すべての機能が無料で、課金そのものがありません)
+- 第三者の SDK: **Firebase Authentication のみ** (ほかは Apple 純正の CloudKit / WidgetKit / Shortcuts)
 
 ### 6-1. 利用状況の把握 (Firebase Authentication)
 
@@ -92,7 +92,7 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 ## 7. 第三者への提供
 
-本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit、StoreKit) は Apple のプライバシーポリシーに準じて処理されます。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。
+本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit) は Apple のプライバシーポリシーに準じて処理されます。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。
 
 ---
 
@@ -111,22 +111,15 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - `WidgetKit`: ホーム画面ウィジェットの提供
 - `AppIntents`: ウィジェット内ボタンの動作定義
 - `CloudKit`: iCloud 同期
-- `StoreKit`: 任意の支援の購入処理
 
 以下の権限は **一切要求しません**:
 - カメラ、マイク、位置情報、連絡先、写真、Bluetooth、ローカルネットワーク、通知
 
 ---
 
-## 10. 課金処理
+## 10. 料金について
 
-本アプリのすべての機能は無料で利用できます。アプリ内課金は **開発を支援するための任意の購入** のみで、購入しても機能や表示は一切変わりません。購入は Apple の **App Store / StoreKit** を経由します。
-
-- 課金主体: Apple Inc.
-- 支払い方法: Apple ID に登録された支払い方法
-- 本アプリは購入結果の検証のみを行い、決済情報 (カード番号等) には一切アクセスしません
-- 購入したという事実を本アプリが記録・送信することはありません
-- 領収書やお問い合わせは App Store 経由でご対応ください
+本アプリのすべての機能は無料で利用できます。**アプリ内課金は一切ありません**。サブスクリプションも、広告も、有料機能もありません。
 
 ---
 

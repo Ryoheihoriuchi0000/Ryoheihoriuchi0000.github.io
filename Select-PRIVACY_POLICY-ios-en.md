@@ -67,14 +67,14 @@ The App makes the following limited network requests only.
 - `https://itunes.apple.com/search`: app metadata lookup (only while you are using "Add Item")
 - Apple CDN: app icon image downloads
 - Apple CloudKit: iCloud sync
-- Apple StoreKit: processing the optional support purchase
 - Google Firebase Authentication: measuring usage (see 6-1)
 
 What we do **not** do:
 - No requests to any server owned by the App developer (we have no servers of our own)
 - No analytics SDKs (no Google Analytics, Firebase Analytics, Crashlytics, Sentry, etc.)
 - No advertising networks
-- No third-party SDKs other than Firebase Authentication (everything else is an Apple framework: StoreKit / CloudKit / WidgetKit / Shortcuts)
+- No in-app purchases (every feature is free; there is no billing at all)
+- No third-party SDKs other than Firebase Authentication (everything else is an Apple framework: CloudKit / WidgetKit / Shortcuts)
 
 ### 6-1. Measuring Usage (Firebase Authentication)
 
@@ -92,7 +92,7 @@ To understand roughly how many people use the App, it uses **anonymous authentic
 
 ## 7. Disclosure to Third Parties
 
-The App does not share collected information with third parties. Network requests to Apple (iTunes Search API, CloudKit, StoreKit) are governed by Apple's own privacy policy.
+The App does not share collected information with third parties. Network requests to Apple (iTunes Search API, CloudKit) are governed by Apple's own privacy policy.
  The anonymous ID issued by Firebase Authentication is processed by Google solely to count users, and is never provided to any third party.
 ---
 
@@ -111,22 +111,15 @@ The App uses the following iOS capabilities.
 - `WidgetKit`: Renders home-screen widgets
 - `AppIntents`: Defines button actions inside widgets
 - `CloudKit`: iCloud sync
-- `StoreKit`: In-app purchase processing
 
 The App **never requests** the following permissions:
 - Camera, microphone, location, contacts, photos, Bluetooth, local network, notifications
 
 ---
 
-## 10. In-App Purchases
+## 10. Pricing
 
-Every feature of the App is free. The only in-app purchase is an **optional purchase that supports development**; buying it changes nothing about how the App looks or works. Purchases go through Apple's **App Store / StoreKit**.
-
-- Seller of record: Apple Inc.
-- Payment method: as registered to your Apple ID
-- The App only verifies the resulting receipt and never has access to your card details
-- The App does not record or transmit the fact that you made a purchase
-- Receipts and support requests are handled by the App Store
+Every feature of the App is free. There are **no in-app purchases of any kind** — no subscriptions, no ads, no paid features.
 
 ---
 
