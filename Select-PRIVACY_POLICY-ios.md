@@ -1,6 +1,6 @@
 # プライバシーポリシー (iOS版)
 
-**最終更新日**: 2026年5月24日
+**最終更新日**: 2026年10月10日
 
 SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊重します。本ポリシーは、本アプリの iOS 版が収集・利用する情報について説明します。
 
@@ -15,7 +15,6 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - 表示設定 (タブのアイコン/テキスト表示、ウィジェット色、Enjoy タブの表示/非表示)
 - カテゴリ・モードの並び順
 - 言語設定
-- Pro 機能の購入状態
 - SELECT Widgets ショートカットのインストール完了フラグ
 
 これらは iOS の **SwiftData** (端末ローカルストレージ) と **App Group** コンテナ (`group.com.artemis.select.ios`) に保存されます。App Group はメインアプリとウィジェット拡張が同一データを参照するために使われます。
@@ -48,7 +47,7 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 ## 4. iCloud 同期
 
-データは CloudKit Private Database (Apple ID 配下のプライベート領域) に保存・同期されます。Pro 版の有無に関わらず、全てのユーザーが iCloud 同期の対象です。
+データは CloudKit Private Database (Apple ID 配下のプライベート領域) に保存・同期されます。すべてのユーザーが iCloud 同期の対象です。
 本アプリの開発者を含む第三者は、ユーザーの CloudKit データに一切アクセスできません。
 
 ---
@@ -67,20 +66,33 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 - `https://itunes.apple.com/search`: アプリ検索 (ユーザーが「アイテム追加」ボタンを押した時のみ)
 - Apple CDN: アプリアイコン画像のダウンロード
-- Apple CloudKit: Pro 版の iCloud 同期 (有効時のみ)
-- Apple StoreKit: Pro 版購入時の課金処理
+- Apple CloudKit: iCloud 同期
+- Apple StoreKit: 任意の支援を購入したときの課金処理
+- Google Firebase Authentication: 利用者数の把握 (詳細は 6-1)
 
 それ以外:
 - 本アプリ開発者のサーバーへの送信: **一切なし** (独自サーバー無し)
-- 解析ツール (Firebase Analytics、Crashlytics、Sentry 等): **なし**
+- 解析ツール (Google Analytics、Firebase Analytics、Crashlytics、Sentry 等): **なし**
 - 広告ネットワーク: **なし**
-- 第三者の SDK: **なし** (Apple 純正の StoreKit / CloudKit / WidgetKit / Shortcuts のみ)
+- 第三者の SDK: **Firebase Authentication のみ** (ほかは Apple 純正の StoreKit / CloudKit / WidgetKit / Shortcuts)
+
+### 6-1. 利用状況の把握 (Firebase Authentication)
+
+おおよその利用者数を把握するために、Google の **Firebase Authentication** の匿名認証を使用しています。
+
+- 初回起動時に、ランダムな文字列の **匿名 ID** が発行されます
+- この ID は **メールアドレス・氏名・電話番号などの個人情報とは一切結び付きません**。ログイン画面もアカウント登録も存在しません
+- 開発者が参照できるのは「1日あたりの利用者数」「1か月あたりの利用者数」「発行された ID の総数」という **集計された数値のみ** です。個々のユーザーを識別したり、追跡したりすることはできません
+- **どの機能を使ったか、どのアプリを登録したかといった行動の記録は送信していません**
+- 匿名 ID は端末ごとに発行され、アプリを削除・再インストールすると別の ID になります。端末をまたいで同一人物として紐付けられることはありません
+- データの取り扱いは [Google のプライバシーポリシー](https://policies.google.com/privacy) に準じます
+- 通信できない環境でも、本アプリのすべての機能はそのまま利用できます
 
 ---
 
 ## 7. 第三者への提供
 
-本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit、StoreKit) は Apple のプライバシーポリシーに準じて処理されます。
+本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit、StoreKit) は Apple のプライバシーポリシーに準じて処理されます。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。
 
 ---
 
@@ -98,8 +110,8 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - `App Group` (`group.com.artemis.select.ios`): メインアプリとウィジェット拡張間のデータ共有
 - `WidgetKit`: ホーム画面ウィジェットの提供
 - `AppIntents`: ウィジェット内ボタンの動作定義
-- `CloudKit`: Pro 版の iCloud 同期 (有効時のみ)
-- `StoreKit`: Pro 版購入処理
+- `CloudKit`: iCloud 同期
+- `StoreKit`: 任意の支援の購入処理
 
 以下の権限は **一切要求しません**:
 - カメラ、マイク、位置情報、連絡先、写真、Bluetooth、ローカルネットワーク、通知
@@ -108,11 +120,12 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 ## 10. 課金処理
 
-Pro 版の購入は Apple の **App Store / StoreKit** を経由します。
+本アプリのすべての機能は無料で利用できます。アプリ内課金は **開発を支援するための任意の購入** のみで、購入しても機能や表示は一切変わりません。購入は Apple の **App Store / StoreKit** を経由します。
 
 - 課金主体: Apple Inc.
 - 支払い方法: Apple ID に登録された支払い方法
 - 本アプリは購入結果の検証のみを行い、決済情報 (カード番号等) には一切アクセスしません
+- 購入したという事実を本アプリが記録・送信することはありません
 - 領収書やお問い合わせは App Store 経由でご対応ください
 
 ---
@@ -122,6 +135,8 @@ Pro 版の購入は Apple の **App Store / StoreKit** を経由します。
 設定画面から「すべてデフォルトに戻す」ですべての設定を初期化できます。完全削除する場合は、iOS の **設定 → 一般 → iPhone ストレージ → SELECT → App を削除** を実行してください。
 
 iCloud 同期を有効にしている場合は、上記に加えて **設定 → ユーザー名 → iCloud → ストレージを管理 → SELECT → データを削除** で iCloud 側のデータも削除できます。
+
+匿名 ID (6-1) についても、アプリを削除すれば端末から失われ、以降その ID が使われることはありません。匿名 ID 自体には個人を特定できる情報が含まれていないため、残った記録から個人をたどることはできません。
 
 ---
 

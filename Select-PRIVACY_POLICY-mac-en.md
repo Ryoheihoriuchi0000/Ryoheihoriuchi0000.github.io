@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated**: May 30, 2026
+**Last updated**: October 10, 2026
 **Target**: SELECT for macOS
 
 SELECT (the “App”) respects your privacy. This policy explains what information the App collects, uses, and stores.
@@ -9,7 +9,7 @@ SELECT (the “App”) respects your privacy. This policy explains what informat
 
 ## 1. Information We Collect
 
-The App stores the following information **only on your device and within your own iCloud account**. It is not sent to any third-party server.
+The App stores the following information **only on your device and within your own iCloud account**. None of these settings are sent to the developer or to any third-party server (usage is counted separately — see 4-1).
 
 - The list of items you registered under each category
   - App bundle ID / executable path
@@ -48,10 +48,23 @@ The only network connections the App makes are:
 |---|---|---|
 | **iTunes Search API** (`itunes.apple.com`) | Fetch icon images of App Store apps | None (queries contain only public bundle IDs) |
 | **Apple CloudKit** (`*.icloud.com`) | Syncing settings / items to your private database | Encrypted via your Apple ID; Apple's Privacy Policy applies |
+| **Firebase Authentication** (`*.googleapis.com`) | Measuring usage (see 4-1) | An anonymous ID only; never linked to personal information |
 
-- The App uses **no analytics tools** (Firebase Analytics, Crashlytics, Sentry, etc.)
+- The App uses **no analytics tools** (Google Analytics, Firebase Analytics, Crashlytics, Sentry, etc.)
 - The App contains **no advertising networks**
 - The App does not communicate with any other external servers
+
+### 4-1. Measuring Usage (Firebase Authentication)
+
+To understand roughly how many people use the App, it uses **anonymous authentication** from Google's **Firebase Authentication**.
+
+- On first launch, a random string called an **anonymous ID** is issued.
+- This ID is **never linked to your email address, name, phone number, or any other personal information**. There is no sign-in screen and no account registration.
+- The developer can only see **aggregate numbers**: daily active users, monthly active users, and the total number of IDs issued. Individual users cannot be identified or tracked.
+- **No record of your behaviour is transmitted** — not which features you use, nor which apps you register.
+- The anonymous ID is issued per device, and reinstalling the App produces a different ID. You are never linked across devices as the same person.
+- Data handling follows [Google's Privacy Policy](https://policies.google.com/privacy).
+- Every feature of the App continues to work with no network connection.
 
 ## 5. About iCloud Sync
 
@@ -64,7 +77,7 @@ The App uses Apple's **CloudKit private database** to automatically sync setting
 
 ## 6. Disclosure to Third Parties
 
-The App does not provide collected information to any third party.
+The App does not provide collected information to any third party. The anonymous ID issued by Firebase Authentication is processed by Google solely to count users, and is never provided to any third party.
 
 ## 7. Children's Privacy
 
@@ -77,7 +90,7 @@ The App uses the following macOS entitlements:
 - `com.apple.security.app-sandbox`: App Sandbox restriction required for App Store distribution
 - `com.apple.security.files.user-selected.read-write`: Read/write access to files / folders the user picks via `NSOpenPanel`
 - `com.apple.security.files.bookmarks.app-scope`: Resolving security-scoped bookmarks
-- `com.apple.security.network.client`: Communication with iTunes Search API and CloudKit
+- `com.apple.security.network.client`: Communication with the iTunes Search API, CloudKit, and Firebase Authentication
 - `com.apple.developer.icloud-services` (CloudKit): Settings sync via the private database
 - `com.apple.developer.icloud-container-identifiers`: Use of the dedicated iCloud container
 
@@ -89,6 +102,7 @@ No other permissions (contacts, location, camera, microphone, automation, full d
 - Local: Delete the **`com.artemis.select.mac`** folder under **Finder → Go → Go to Library → Containers** to remove all local data of the App
 - iCloud: From **System Settings → Apple ID → iCloud → Manage Apps Using iCloud → SELECT**, delete the App's iCloud data
 - The App itself: Move **SELECT.app** to Trash from **Finder → Applications** for complete removal
+- The anonymous ID (4-1): Lost from your device when you delete the container or the App, after which that ID is never used again. Because the ID itself contains nothing that identifies a person, no individual can be traced from any remaining record
 
 ## 10. About Launcher Functionality
 

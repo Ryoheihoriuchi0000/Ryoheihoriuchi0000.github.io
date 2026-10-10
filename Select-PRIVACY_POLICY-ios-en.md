@@ -1,6 +1,6 @@
 # Privacy Policy (iOS)
 
-**Last updated:** May 24, 2026
+**Last updated:** October 10, 2026
 
 SELECT (the "App") respects user privacy. This policy explains what information the iOS version of the App collects and how it is used.
 
@@ -15,7 +15,6 @@ The following information is stored **only on your device** and is never sent to
 - Display preferences (tab icon/text style, widget colour, Enjoy-tab visibility)
 - Sort order of categories and modes
 - Language preference
-- Pro purchase status
 - Whether the SELECT Widgets shortcut has been installed
 
 Data is persisted in iOS **SwiftData** (local storage) and the **App Group** container (`group.com.artemis.select.ios`). The App Group is used so the main app and the widget extension can share the same data.
@@ -48,7 +47,7 @@ When you register an app, its icon is downloaded from Apple's CDN and cached ins
 
 ## 4. iCloud Sync
 
-Your data is stored in your own CloudKit Private Database (a private area under your Apple ID). This applies to all users regardless of Pro status.
+Your data is stored in your own CloudKit Private Database (a private area under your Apple ID). This applies to every user.
 Neither the developer nor any third party can access your CloudKit data.
 
 ---
@@ -67,21 +66,34 @@ The App makes the following limited network requests only.
 
 - `https://itunes.apple.com/search`: app metadata lookup (only while you are using "Add Item")
 - Apple CDN: app icon image downloads
-- Apple CloudKit: iCloud sync (only when enabled, Pro only)
-- Apple StoreKit: Pro purchase processing
+- Apple CloudKit: iCloud sync
+- Apple StoreKit: processing the optional support purchase
+- Google Firebase Authentication: measuring usage (see 6-1)
 
 What we do **not** do:
 - No requests to any server owned by the App developer (we have no servers of our own)
-- No analytics SDKs (no Firebase Analytics, Crashlytics, Sentry, etc.)
+- No analytics SDKs (no Google Analytics, Firebase Analytics, Crashlytics, Sentry, etc.)
 - No advertising networks
-- No third-party SDKs other than Apple frameworks (StoreKit / CloudKit / WidgetKit / Shortcuts)
+- No third-party SDKs other than Firebase Authentication (everything else is an Apple framework: StoreKit / CloudKit / WidgetKit / Shortcuts)
+
+### 6-1. Measuring Usage (Firebase Authentication)
+
+To understand roughly how many people use the App, it uses **anonymous authentication** from Google's **Firebase Authentication**.
+
+- On first launch, a random string called an **anonymous ID** is issued.
+- This ID is **never linked to your email address, name, phone number, or any other personal information**. There is no sign-in screen and no account registration.
+- The developer can only see **aggregate numbers**: daily active users, monthly active users, and the total number of IDs issued. Individual users cannot be identified or tracked.
+- **No record of your behaviour is transmitted** — not which features you use, nor which apps you register.
+- The anonymous ID is issued per device, and reinstalling the App produces a different ID. You are never linked across devices as the same person.
+- Data handling follows [Google's Privacy Policy](https://policies.google.com/privacy).
+- Every feature of the App continues to work with no network connection.
 
 ---
 
 ## 7. Disclosure to Third Parties
 
 The App does not share collected information with third parties. Network requests to Apple (iTunes Search API, CloudKit, StoreKit) are governed by Apple's own privacy policy.
-
+ The anonymous ID issued by Firebase Authentication is processed by Google solely to count users, and is never provided to any third party.
 ---
 
 ## 8. Children's Personal Information
@@ -98,7 +110,7 @@ The App uses the following iOS capabilities.
 - `App Group` (`group.com.artemis.select.ios`): Shared data store between the main app and the widget extension
 - `WidgetKit`: Renders home-screen widgets
 - `AppIntents`: Defines button actions inside widgets
-- `CloudKit`: iCloud sync (only when enabled, Pro only)
+- `CloudKit`: iCloud sync
 - `StoreKit`: In-app purchase processing
 
 The App **never requests** the following permissions:
@@ -108,11 +120,12 @@ The App **never requests** the following permissions:
 
 ## 10. In-App Purchases
 
-Pro purchases go through Apple's **App Store / StoreKit**.
+Every feature of the App is free. The only in-app purchase is an **optional purchase that supports development**; buying it changes nothing about how the App looks or works. Purchases go through Apple's **App Store / StoreKit**.
 
 - Seller of record: Apple Inc.
 - Payment method: as registered to your Apple ID
 - The App only verifies the resulting receipt and never has access to your card details
+- The App does not record or transmit the fact that you made a purchase
 - Receipts and support requests are handled by the App Store
 
 ---
@@ -122,6 +135,8 @@ Pro purchases go through Apple's **App Store / StoreKit**.
 You can reset all settings to their defaults from inside the Settings screen. For a full uninstall, use **iOS Settings → General → iPhone Storage → SELECT → Delete App**.
 
 If iCloud sync is enabled, you can additionally remove the cloud copy from **Settings → [Your Name] → iCloud → Manage Storage → SELECT → Delete Data**.
+
+The anonymous ID (see 6-1) is also lost from your device when you delete the App, and that ID is never used again. Because the ID itself contains nothing that identifies a person, no individual can be traced from any remaining record.
 
 ---
 

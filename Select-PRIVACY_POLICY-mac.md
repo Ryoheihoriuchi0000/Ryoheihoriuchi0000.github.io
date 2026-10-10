@@ -1,6 +1,6 @@
 # プライバシーポリシー
 
-**最終更新日**: 2026年5月30日
+**最終更新日**: 2026年10月10日
 **対象**: SELECT for macOS
 
 SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重します。本ポリシーは、本アプリが収集・利用・保存する情報について説明します。
@@ -9,7 +9,7 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 
 ## 1. 収集する情報
 
-本アプリは以下の情報を **端末内および ユーザー自身の iCloud アカウント内のみ** で保持します。第三者サーバーには送信しません。
+本アプリは以下の情報を **端末内および ユーザー自身の iCloud アカウント内のみ** で保持します。これらの設定内容を開発者や第三者のサーバーへ送信することはありません(利用者数の把握のみ、4-1 をご覧ください)。
 
 - ユーザーが各カテゴリに登録したアイテムの一覧
   - アプリのバンドル ID / 実行可能ファイルパス
@@ -48,10 +48,23 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 |---|---|---|
 | **iTunes Search API** (`itunes.apple.com`) | App Store 公開アプリのアイコン画像取得 | なし(検索クエリは公開バンドル ID のみ) |
 | **Apple CloudKit** (`*.icloud.com`) | private database への設定 / アイテム同期 | Apple ID 紐づきの暗号化通信、Apple のプライバシーポリシーが適用 |
+| **Firebase Authentication** (`*.googleapis.com`) | 利用者数の把握(4-1 参照) | 匿名 ID のみ。個人情報との紐付けなし |
 
-- 解析ツール(Firebase Analytics、Crashlytics、Sentry 等)は **使用していません**
+- 解析ツール(Google Analytics、Firebase Analytics、Crashlytics、Sentry 等)は **使用していません**
 - 広告ネットワークは **一切ありません**
 - 上記以外の任意の外部サーバーとは通信しません
+
+### 4-1. 利用状況の把握(Firebase Authentication)
+
+おおよその利用者数を把握するために、Google の **Firebase Authentication** の匿名認証を使用しています。
+
+- 初回起動時に、ランダムな文字列の **匿名 ID** が発行されます
+- この ID は **メールアドレス・氏名・電話番号などの個人情報とは一切結び付きません**。ログイン画面もアカウント登録も存在しません
+- 開発者が参照できるのは「1日あたりの利用者数」「1か月あたりの利用者数」「発行された ID の総数」という **集計された数値のみ** です。個々のユーザーを識別したり、追跡したりすることはできません
+- **どの機能を使ったか、どのアプリを登録したかといった行動の記録は送信していません**
+- 匿名 ID は端末ごとに発行され、アプリを削除・再インストールすると別の ID になります。端末をまたいで同一人物として紐付けられることはありません
+- データの取り扱いは [Google のプライバシーポリシー](https://policies.google.com/privacy) に準じます
+- 通信できない環境でも、本アプリのすべての機能はそのまま利用できます
 
 ## 5. iCloud 同期について
 
@@ -64,7 +77,7 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 
 ## 6. 第三者への提供
 
-本アプリは収集した情報を第三者に提供しません。
+本アプリは収集した情報を第三者に提供しません。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。
 
 ## 7. 子どもの個人情報
 
@@ -77,7 +90,7 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 - `com.apple.security.app-sandbox`: App Store 配信に必須のサンドボックス制限
 - `com.apple.security.files.user-selected.read-write`: `NSOpenPanel` でユーザーが選択したファイル / フォルダの読み書き
 - `com.apple.security.files.bookmarks.app-scope`: セキュリティスコープ付きブックマークの解決
-- `com.apple.security.network.client`: iTunes Search API および CloudKit との通信
+- `com.apple.security.network.client`: iTunes Search API、CloudKit、Firebase Authentication との通信
 - `com.apple.developer.icloud-services` (CloudKit): private database での設定同期
 - `com.apple.developer.icloud-container-identifiers`: 専用 iCloud コンテナの利用
 
@@ -89,6 +102,7 @@ SELECT(以下「本アプリ」)は、ユーザーのプライバシーを尊重
 - 端末ローカル: **Finder → 移動 → ライブラリへ移動 → Containers → `com.artemis.select.mac` フォルダを削除** で本アプリのすべてのローカルデータを削除できます
 - iCloud: **システム設定 → Apple ID → iCloud → iCloud で同期するアプリを管理 → SELECT** から iCloud 上のデータを削除できます
 - 本アプリ自体: **Finder → アプリケーション → SELECT.app をゴミ箱へ** で完全に削除できます
+- 匿名 ID (4-1): 上記のコンテナ削除またはアプリの削除によって端末から失われ、以降その ID が使われることはありません。匿名 ID 自体には個人を特定できる情報が含まれていないため、残った記録から個人をたどることはできません
 
 ## 10. ランチャー機能について
 
