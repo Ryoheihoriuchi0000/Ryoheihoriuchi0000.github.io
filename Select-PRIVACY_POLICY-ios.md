@@ -145,4 +145,4 @@ iCloud 同期を有効にしている場合は、上記に加えて **設定 →
 
 ---
 
-English version: [Privacy Policy (iOS)](./Select-PRIVACY_POLICY-ios-en)
+English version: [Privacy Policy (iOS)](./Select-PRIVACY_POLICY-ios-en) ・ 简体中文: [隐私政策](./Select-PRIVACY_POLICY-ios-zh-Hans) ・ 繁體中文: [隱私權政策](./Select-PRIVACY_POLICY-ios-zh-Hant) ・ العربية: [سياسة الخصوصية](./Select-PRIVACY_POLICY-ios-ar)

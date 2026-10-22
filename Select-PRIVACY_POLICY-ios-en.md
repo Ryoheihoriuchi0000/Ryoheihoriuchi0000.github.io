@@ -145,4 +145,4 @@ For questions about this policy, please use the developer contact details listed
 
 ---
 
-日本語版: [プライバシーポリシー (iOS版)](./Select-PRIVACY_POLICY-ios)
+日本語版: [プライバシーポリシー (iOS版)](./Select-PRIVACY_POLICY-ios) ・ 简体中文: [隐私政策](./Select-PRIVACY_POLICY-ios-zh-Hans) ・ 繁體中文: [隱私權政策](./Select-PRIVACY_POLICY-ios-zh-Hant) ・ العربية: [سياسة الخصوصية](./Select-PRIVACY_POLICY-ios-ar)
