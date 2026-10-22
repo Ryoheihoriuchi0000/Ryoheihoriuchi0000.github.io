@@ -1,6 +1,6 @@
 # プライバシーポリシー (iOS版)
 
-**最終更新日**: 2026年10月10日
+**最終更新日**: 2026年10月23日
 
 SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊重します。本ポリシーは、本アプリの iOS 版が収集・利用する情報について説明します。
 
@@ -68,13 +68,13 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - Apple CDN: アプリアイコン画像のダウンロード
 - Apple CloudKit: iCloud 同期
 - Google Firebase Authentication: 利用者数の把握 (詳細は 6-1)
+- Google Mobile Ads (AdMob): エディタ画面の下に表示する広告 (詳細は 6-2)
 
 それ以外:
 - 本アプリ開発者のサーバーへの送信: **一切なし** (独自サーバー無し)
 - 解析ツール (Google Analytics、Firebase Analytics、Crashlytics、Sentry 等): **なし**
-- 広告ネットワーク: **なし**
 - アプリ内課金: **なし** (すべての機能が無料で、課金そのものがありません)
-- 第三者の SDK: **Firebase Authentication のみ** (ほかは Apple 純正の CloudKit / WidgetKit / Shortcuts)
+- 第三者の SDK: **Firebase Authentication と Google Mobile Ads のみ** (ほかは Apple 純正の CloudKit / WidgetKit / Shortcuts)
 
 ### 6-1. 利用状況の把握 (Firebase Authentication)
 
@@ -88,11 +88,21 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - データの取り扱いは [Google のプライバシーポリシー](https://policies.google.com/privacy) に準じます
 - 通信できない環境でも、本アプリのすべての機能はそのまま利用できます
 
+### 6-2. 広告 (Google Mobile Ads)
+
+本アプリはエディタ画面の下にバナー広告を表示します。広告の配信には Google の **Google Mobile Ads SDK (AdMob)** を使用しています。
+
+- 広告を表示するのはエディタ画面の下だけです。ウィジェット・設定画面・初回起動時の説明画面には表示しません
+- 広告の配信・効果の測定・不正の防止のために、Google が端末の情報 (IP アドレス、端末の種類、OS のバージョン、広告の表示とタップの記録など) を処理します
+- 広告 ID (IDFA) は「トラッキングを許可」したときだけ使用されます。許可しなくても、すべての機能はそのまま利用できます。設定は **iOS の設定 → プライバシーとセキュリティ → トラッキング** からいつでも変更できます
+- 本アプリが有料だった期間に入手した方には、広告を表示しません
+- データの取り扱いは [Google のパートナーのサイトやアプリでのデータ使用](https://policies.google.com/technologies/partner-sites) と [Google のプライバシーポリシー](https://policies.google.com/privacy) に準じます
+
 ---
 
 ## 7. 第三者への提供
 
-本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit) は Apple のプライバシーポリシーに準じて処理されます。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。
+本アプリは収集した情報を第三者に提供しません。Apple との通信 (iTunes Search API、CloudKit) は Apple のプライバシーポリシーに準じて処理されます。Firebase Authentication で発行される匿名 ID は Google が処理しますが、利用者数の集計のみを目的としており、第三者へ提供することはありません。広告の配信のために、Google が 6-2 に記載の情報を処理します。
 
 ---
 
@@ -111,6 +121,7 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 - `WidgetKit`: ホーム画面ウィジェットの提供
 - `AppIntents`: ウィジェット内ボタンの動作定義
 - `CloudKit`: iCloud 同期
+- `App Tracking Transparency`: 広告を利用者に合わせるためのトラッキングの許可を求めます (許可しなくても機能は制限されません)
 
 以下の権限は **一切要求しません**:
 - カメラ、マイク、位置情報、連絡先、写真、Bluetooth、ローカルネットワーク、通知
@@ -119,7 +130,7 @@ SELECT (以下「本アプリ」) は、ユーザーのプライバシーを尊�
 
 ## 10. 料金について
 
-本アプリのすべての機能は無料で利用できます。**アプリ内課金は一切ありません**。サブスクリプションも、広告も、有料機能もありません。
+本アプリのすべての機能は無料で利用できます。**アプリ内課金は一切ありません**。サブスクリプションも有料機能もありません。運営費はエディタ画面の下に表示する広告で賄っています (詳細は 6-2)。
 
 ---
 

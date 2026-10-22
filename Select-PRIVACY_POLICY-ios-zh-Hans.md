@@ -68,13 +68,13 @@ SELECT（以下简称「本应用」）尊重用户隐私。本政策说明本�
 - Apple CDN：下载应用图标图片
 - Apple CloudKit：iCloud 同步
 - Google Firebase Authentication：统计使用人数（见 6-1）
+- Google Mobile Ads (AdMob)：在编辑界面底部显示的横幅广告（见 6-2）
 
 我们**不会**做的事：
 - 不向本应用开发者拥有的任何服务器发送请求（我们没有自己的服务器）
 - 不使用分析 SDK（无 Google Analytics、Firebase Analytics、Crashlytics、Sentry 等）
-- 不使用广告网络
 - 无应用内购买（所有功能免费，完全没有计费）
-- 除 Firebase Authentication 外不使用第三方 SDK（其余均为 Apple 框架：CloudKit / WidgetKit / 快捷指令）
+- 除 Firebase Authentication 和 Google Mobile Ads 外不使用第三方 SDK（其余均为 Apple 框架：CloudKit / WidgetKit / 快捷指令）
 
 ### 6-1. 统计使用人数 (Firebase Authentication)
 
@@ -88,12 +88,22 @@ SELECT（以下简称「本应用」）尊重用户隐私。本政策说明本�
 - 数据处理遵循 [Google 隐私政策](https://policies.google.com/privacy)。
 - 即使没有网络连接，本应用的所有功能也能继续使用。
 
+### 6-2. 广告 (Google Mobile Ads)
+
+本应用会在编辑界面底部显示横幅广告，广告由 Google 的 **Google Mobile Ads SDK (AdMob)** 投放。
+
+- 仅在编辑界面底部显示广告。小组件、设置界面和首次启动时的说明界面不显示广告。
+- 为投放广告、衡量广告效果和防止欺诈，Google 会处理设备信息（IP 地址、设备型号、系统版本、广告展示与点按记录等）。
+- 仅当您选择「允许跟踪」时才会使用广告标识符 (IDFA)。即使不允许，所有功能也能照常使用。您可以随时在 **iOS 设置 → 隐私与安全性 → 跟踪** 中更改。
+- 在本应用收费期间获取本应用的用户不会看到广告。
+- 数据处理遵循 [Google 如何使用使用其服务的网站或应用中的信息](https://policies.google.com/technologies/partner-sites) 和 [Google 隐私政策](https://policies.google.com/privacy)。
+
 ---
 
 ## 7. 向第三方披露
 
 本应用不会与第三方共享收集到的信息。向 Apple 发出的网络请求（iTunes Search API、CloudKit）受 Apple 自身的隐私政策约束。
-Firebase Authentication 发放的匿名 ID 仅由 Google 用于统计用户数，绝不会提供给任何第三方。
+Firebase Authentication 发放的匿名 ID 仅由 Google 用于统计用户数，绝不会提供给任何第三方。为投放广告，Google 会处理 6-2 中所述的信息。
 
 ---
 
@@ -112,6 +122,7 @@ Firebase Authentication 发放的匿名 ID 仅由 Google 用于统计用户数�
 - `WidgetKit`：渲染主屏幕小组件
 - `AppIntents`：定义小组件内的按钮操作
 - `CloudKit`：iCloud 同步
+- `App Tracking Transparency`：请求跟踪许可，仅用于让广告更符合您的兴趣（不允许也不会限制任何功能）
 
 本应用**绝不会请求**以下权限：
 - 相机、麦克风、位置、通讯录、照片、蓝牙、本地网络、通知
@@ -120,7 +131,7 @@ Firebase Authentication 发放的匿名 ID 仅由 Google 用于统计用户数�
 
 ## 10. 费用
 
-本应用的所有功能均免费。**不含任何应用内购买**——没有订阅、没有广告、没有付费功能。
+本应用的所有功能均免费。**不含任何应用内购买**——没有订阅，也没有付费功能。本应用的运营费用由编辑界面底部显示的横幅广告支撑（见 6-2）。
 
 ---
 

@@ -1,6 +1,6 @@
 # Privacy Policy (iOS)
 
-**Last updated:** October 10, 2026
+**Last updated:** October 23, 2026
 
 SELECT (the "App") respects user privacy. This policy explains what information the iOS version of the App collects and how it is used.
 
@@ -68,13 +68,13 @@ The App makes the following limited network requests only.
 - Apple CDN: app icon image downloads
 - Apple CloudKit: iCloud sync
 - Google Firebase Authentication: measuring usage (see 6-1)
+- Google Mobile Ads (AdMob): a banner ad below the editor screen (see 6-2)
 
 What we do **not** do:
 - No requests to any server owned by the App developer (we have no servers of our own)
 - No analytics SDKs (no Google Analytics, Firebase Analytics, Crashlytics, Sentry, etc.)
-- No advertising networks
 - No in-app purchases (every feature is free; there is no billing at all)
-- No third-party SDKs other than Firebase Authentication (everything else is an Apple framework: CloudKit / WidgetKit / Shortcuts)
+- No third-party SDKs other than Firebase Authentication and Google Mobile Ads (everything else is an Apple framework: CloudKit / WidgetKit / Shortcuts)
 
 ### 6-1. Measuring Usage (Firebase Authentication)
 
@@ -88,12 +88,22 @@ To understand roughly how many people use the App, it uses **anonymous authentic
 - Data handling follows [Google's Privacy Policy](https://policies.google.com/privacy).
 - Every feature of the App continues to work with no network connection.
 
+### 6-2. Ads (Google Mobile Ads)
+
+The App shows a banner ad below the editor screen, delivered with Google's **Google Mobile Ads SDK (AdMob)**.
+
+- Ads appear only below the editor screen. Widgets, the Settings screen, and the first-launch introduction show no ads.
+- To deliver ads, measure their performance, and prevent fraud, Google processes device information such as your IP address, device type, OS version, and records of ad impressions and taps.
+- The advertising identifier (IDFA) is used only if you choose "Allow" for tracking. If you do not allow it, every feature still works. You can change this at any time in **iOS Settings → Privacy & Security → Tracking**.
+- People who got the App while it was a paid app do not see ads.
+- Data handling follows [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and [Google's Privacy Policy](https://policies.google.com/privacy).
+
 ---
 
 ## 7. Disclosure to Third Parties
 
 The App does not share collected information with third parties. Network requests to Apple (iTunes Search API, CloudKit) are governed by Apple's own privacy policy.
- The anonymous ID issued by Firebase Authentication is processed by Google solely to count users, and is never provided to any third party.
+ The anonymous ID issued by Firebase Authentication is processed by Google solely to count users, and is never provided to any third party. To deliver ads, Google processes the information described in 6-2.
 ---
 
 ## 8. Children's Personal Information
@@ -111,6 +121,7 @@ The App uses the following iOS capabilities.
 - `WidgetKit`: Renders home-screen widgets
 - `AppIntents`: Defines button actions inside widgets
 - `CloudKit`: iCloud sync
+- `App Tracking Transparency`: asks for permission to track, used only to make ads more relevant (declining does not limit any feature)
 
 The App **never requests** the following permissions:
 - Camera, microphone, location, contacts, photos, Bluetooth, local network, notifications
@@ -119,7 +130,7 @@ The App **never requests** the following permissions:
 
 ## 10. Pricing
 
-Every feature of the App is free. There are **no in-app purchases of any kind** — no subscriptions, no ads, no paid features.
+Every feature of the App is free. There are **no in-app purchases of any kind** — no subscriptions and no paid features. The App is supported by a banner ad below the editor screen (see 6-2).
 
 ---
 

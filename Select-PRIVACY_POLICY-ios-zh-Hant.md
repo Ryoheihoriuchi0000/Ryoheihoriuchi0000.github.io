@@ -68,13 +68,13 @@ SELECT（以下簡稱「本 App」）尊重使用者隱私。本政策說明本 
 - Apple CDN：下載 App 圖示圖片
 - Apple CloudKit：iCloud 同步
 - Google Firebase Authentication：統計使用人數（見 6-1）
+- Google Mobile Ads (AdMob)：在編輯畫面底部顯示的橫幅廣告（見 6-2）
 
 我們**不會**做的事：
 - 不向本 App 開發者所擁有的任何伺服器發出請求（我們沒有自己的伺服器）
 - 不使用分析 SDK（無 Google Analytics、Firebase Analytics、Crashlytics、Sentry 等）
-- 不使用廣告聯播網
 - 無 App 內購買（所有功能免費，完全沒有計費）
-- 除 Firebase Authentication 外不使用第三方 SDK（其餘皆為 Apple 框架：CloudKit / WidgetKit / 捷徑）
+- 除 Firebase Authentication 與 Google Mobile Ads 外不使用第三方 SDK（其餘皆為 Apple 框架：CloudKit / WidgetKit / 捷徑）
 
 ### 6-1. 統計使用人數 (Firebase Authentication)
 
@@ -88,12 +88,22 @@ SELECT（以下簡稱「本 App」）尊重使用者隱私。本政策說明本 
 - 資料處理遵循 [Google 隱私權政策](https://policies.google.com/privacy)。
 - 即使沒有網路連線，本 App 的所有功能也能繼續使用。
 
+### 6-2. 廣告 (Google Mobile Ads)
+
+本 App 會在編輯畫面底部顯示橫幅廣告，廣告由 Google 的 **Google Mobile Ads SDK (AdMob)** 提供。
+
+- 僅在編輯畫面底部顯示廣告。小工具、設定畫面與首次啟動時的說明畫面不顯示廣告。
+- 為提供廣告、衡量廣告成效及防止詐騙，Google 會處理裝置資訊（IP 位址、裝置型號、作業系統版本、廣告曝光與點按記錄等）。
+- 僅在您選擇「允許追蹤」時才會使用廣告識別碼 (IDFA)。即使不允許，所有功能也能照常使用。您可以隨時在 **iOS 設定 → 隱私權與安全性 → 追蹤** 中變更。
+- 在本 App 收費期間取得本 App 的使用者不會看到廣告。
+- 資料處理遵循 [Google 如何使用採用其服務的網站或應用程式中的資訊](https://policies.google.com/technologies/partner-sites) 與 [Google 隱私權政策](https://policies.google.com/privacy)。
+
 ---
 
 ## 7. 向第三方揭露
 
 本 App 不會與第三方分享收集到的資訊。向 Apple 發出的網路請求（iTunes Search API、CloudKit）受 Apple 自身的隱私權政策規範。
-Firebase Authentication 核發的匿名 ID 僅由 Google 用於統計使用者數，絕不會提供給任何第三方。
+Firebase Authentication 核發的匿名 ID 僅由 Google 用於統計使用者數，絕不會提供給任何第三方。為提供廣告，Google 會處理 6-2 中所述的資訊。
 
 ---
 
@@ -112,6 +122,7 @@ Firebase Authentication 核發的匿名 ID 僅由 Google 用於統計使用者�
 - `WidgetKit`：呈現主畫面小工具
 - `AppIntents`：定義小工具內的按鈕動作
 - `CloudKit`：iCloud 同步
+- `App Tracking Transparency`：要求追蹤許可，僅用於讓廣告更符合您的興趣（不允許也不會限制任何功能）
 
 本 App **絕不會要求**以下權限：
 - 相機、麥克風、位置、聯絡人、照片、藍牙、區域網路、通知
@@ -120,7 +131,7 @@ Firebase Authentication 核發的匿名 ID 僅由 Google 用於統計使用者�
 
 ## 10. 費用
 
-本 App 的所有功能皆免費。**不含任何 App 內購買**——沒有訂閱、沒有廣告、沒有付費功能。
+本 App 的所有功能皆免費。**不含任何 App 內購買**——沒有訂閱，也沒有付費功能。本 App 的營運費用由編輯畫面底部顯示的橫幅廣告支持（見 6-2）。
 
 ---
 
