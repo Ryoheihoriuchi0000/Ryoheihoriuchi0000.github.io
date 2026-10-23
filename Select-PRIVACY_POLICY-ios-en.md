@@ -68,7 +68,7 @@ The App makes the following limited network requests only.
 - Apple CDN: app icon image downloads
 - Apple CloudKit: iCloud sync
 - Google Firebase Authentication: measuring usage (see 6-1)
-- Google Mobile Ads (AdMob): a banner ad below the editor screen (see 6-2)
+- Google Mobile Ads (AdMob): a banner ad below the editor screen and a full-screen ad when switching tabs (see 6-2)
 
 What we do **not** do:
 - No requests to any server owned by the App developer (we have no servers of our own)
@@ -90,9 +90,9 @@ To understand roughly how many people use the App, it uses **anonymous authentic
 
 ### 6-2. Ads (Google Mobile Ads)
 
-The App shows a banner ad below the editor screen, delivered with Google's **Google Mobile Ads SDK (AdMob)**.
+The App shows a banner ad below the editor screen and, every few tab switches in the editor, a full-screen ad, delivered with Google's **Google Mobile Ads SDK (AdMob)**.
 
-- Ads appear only below the editor screen. Widgets, the Settings screen, and the first-launch introduction show no ads.
+- Ads appear only on the editor screen. Widgets, the Settings screen, and the first-launch introduction show no ads.
 - To deliver ads, measure their performance, and prevent fraud, Google processes device information such as your IP address, device type, OS version, and records of ad impressions and taps.
 - The advertising identifier (IDFA) is used only if you choose "Allow" for tracking. If you do not allow it, every feature still works. You can change this at any time in **iOS Settings → Privacy & Security → Tracking**.
 - People who got the App while it was a paid app, and people who bought "Remove Ads", do not see ads.
@@ -130,7 +130,7 @@ The App **never requests** the following permissions:
 
 ## 10. Pricing
 
-Every feature of the App is free. The App is supported by a banner ad below the editor screen (see 6-2). The only in-app purchase is the one-time "Remove Ads", which stops ads from being shown. There are no subscriptions.
+Every feature of the App is free. The App is supported by ads on the editor screen (see 6-2). The only in-app purchase is the one-time "Remove Ads", which stops ads from being shown. There are no subscriptions.
 
 ---
 
