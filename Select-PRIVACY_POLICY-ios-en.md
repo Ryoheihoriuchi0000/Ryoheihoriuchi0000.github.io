@@ -73,7 +73,7 @@ The App makes the following limited network requests only.
 What we do **not** do:
 - No requests to any server owned by the App developer (we have no servers of our own)
 - No analytics SDKs (no Google Analytics, Firebase Analytics, Crashlytics, Sentry, etc.)
-- No in-app purchases (every feature is free; there is no billing at all)
+- No in-app purchases other than the one-time "Remove Ads" (payment is handled by Apple; the developer never receives card or other payment details)
 - No third-party SDKs other than Firebase Authentication and Google Mobile Ads (everything else is an Apple framework: CloudKit / WidgetKit / Shortcuts)
 
 ### 6-1. Measuring Usage (Firebase Authentication)
@@ -95,7 +95,7 @@ The App shows a banner ad below the editor screen, delivered with Google's **Goo
 - Ads appear only below the editor screen. Widgets, the Settings screen, and the first-launch introduction show no ads.
 - To deliver ads, measure their performance, and prevent fraud, Google processes device information such as your IP address, device type, OS version, and records of ad impressions and taps.
 - The advertising identifier (IDFA) is used only if you choose "Allow" for tracking. If you do not allow it, every feature still works. You can change this at any time in **iOS Settings → Privacy & Security → Tracking**.
-- People who got the App while it was a paid app do not see ads.
+- People who got the App while it was a paid app, and people who bought "Remove Ads", do not see ads.
 - Data handling follows [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ---
@@ -130,7 +130,7 @@ The App **never requests** the following permissions:
 
 ## 10. Pricing
 
-Every feature of the App is free. There are **no in-app purchases of any kind** — no subscriptions and no paid features. The App is supported by a banner ad below the editor screen (see 6-2).
+Every feature of the App is free. The App is supported by a banner ad below the editor screen (see 6-2). The only in-app purchase is the one-time "Remove Ads", which stops ads from being shown. There are no subscriptions.
 
 ---
 
