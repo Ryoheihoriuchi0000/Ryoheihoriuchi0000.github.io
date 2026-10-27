@@ -2,17 +2,17 @@
 
 **Spider - Circle Calendar** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
 
-Last updated: October 27, 2026
+Last updated: October 28, 2026
 
 ---
 
 ## 1. Information the App Uses
 
-### 1-1. Calendar events
-With your permission, the App reads and writes the events in Apple Calendar on your device (Full Access) to show them on the wheel and to save the events you create or change. Events stay in Apple Calendar on your device (and in the calendar accounts you use, such as iCloud). The App has no server of its own and never sends your events to the developer.
+### 1-1. Events
+Events you create in the App are stored only on your device. The App does not read or write events in Apple Calendar or any other calendar. The App has no server of its own and never sends your events to the developer.
 
 ### 1-2. Settings stored on your device
-Tags, colors you set for events, calendars you hide and display settings are stored only on your device.
+Tags and display settings are stored only on your device.
 
 ### 1-3. Purchases
 Purchases of Spider Plus are processed by Apple. The App checks your purchase status through Apple and does not receive your payment information.
@@ -26,7 +26,7 @@ The App does not collect your name, email address, contacts, precise location or
 
 ## 2. Purpose of Use
 
-- Showing your calendar events on the wheel and saving the events you create
+- Saving the events you create and showing them on the wheel
 - Unlocking Spider Plus for people who purchased it
 - Showing ads to people who do not have Spider Plus
 
@@ -47,7 +47,7 @@ Please refer to each company's official page for their privacy policies.
 
 ## 4. Data Deletion
 
-Events you created in Spider are saved in Apple Calendar and can be deleted in Spider or in the Calendar app. Deleting the App removes the settings stored on your device.
+You can delete events in the App. Deleting the App removes all events and settings stored on your device.
 
 ---
 
