@@ -18,9 +18,9 @@ Tags, colors you set for events, calendars you hide and display settings are sto
 Purchases of Spider Plus are processed by Apple. The App checks your purchase status through Apple and does not receive your payment information.
 
 ### 1-4. Advertising
-If you do not have Spider Plus, the App shows ads through Google AdMob. Google may collect your device's advertising identifier (only if you allow tracking), IP address and ad interaction data to show and measure ads. If you do not allow tracking, ads are shown without the advertising identifier.
+If you do not have Spider Plus, the App shows ads through Google AdMob. Google may collect your device's advertising identifier (only if you allow tracking), IP address and the approximate location estimated from it, data on ads shown and tapped, and crash and performance diagnostics to show and measure ads. If you do not allow tracking, ads are shown without the advertising identifier.
 
-The App does not collect your name, email address, contacts, location or browsing history.
+The App does not collect your name, email address, contacts, precise location or browsing history.
 
 ---
 
