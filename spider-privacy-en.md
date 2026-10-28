@@ -1,8 +1,10 @@
+[日本語](spider-privacy.html) ・ [English](spider-privacy-en.html) ・ [한국어](spider-privacy-ko.html) ・ [简体中文](spider-privacy-zh-Hans.html) ・ [繁體中文](spider-privacy-zh-Hant.html)
+
 # Privacy Policy
 
 **TimeSpinner - Circle Calendar** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
 
-Last updated: October 28, 2026
+Last updated: October 29, 2026
 
 ---
 
@@ -12,7 +14,7 @@ Last updated: October 28, 2026
 Events and tags you create in the App are stored on your device. If you do not log in, events and tags never leave your device.
 
 ### 1-2. Account and sync (optional)
-Only if you log in from Sync in Settings, the App stores the following in Google Firebase (Authentication and Cloud Firestore, located in the Tokyo region) and syncs events and tags across devices logged in to the same account:
+Only if you log in from Account in Settings, the App stores the following in Google Firebase (Authentication and Cloud Firestore, located in the Tokyo region) and syncs events and tags across devices logged in to the same account:
 
 - Your email address (when you create an account with an email address; when you log in with Apple, the email address Apple provides)
 - Your account ID
@@ -66,7 +68,7 @@ Please refer to each company's official page for their privacy policies.
 
 You can delete events and tags in the App. If you are logged in, events and tags you delete on your device are also deleted from the cloud.
 
-Tapping Delete Account in Settings deletes the events and tags stored in the cloud and your account, including your email address. Events and tags on your device remain. They also remain on your device when you log out.
+Tapping Delete Account in Account in Settings deletes the events and tags stored in the cloud and your account, including your email address. Events and tags on your device remain. They also remain on your device when you log out.
 
 Deleting the App removes all events and settings stored on your device.
 
