@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Spider - Circle Calendar** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
+**TimeSpinner - Circle Calendar** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
 
 Last updated: October 28, 2026
 
@@ -15,10 +15,10 @@ Events you create in the App are stored only on your device. The App does not re
 Tags and display settings are stored only on your device.
 
 ### 1-3. Purchases
-Purchases of Spider Plus are processed by Apple. The App checks your purchase status through Apple and does not receive your payment information.
+Purchases of TimeSpinner Plus are processed by Apple. The App checks your purchase status through Apple and does not receive your payment information.
 
 ### 1-4. Advertising
-If you do not have Spider Plus, the App shows ads through Google AdMob. Google may collect your device's advertising identifier (only if you allow tracking), IP address and the approximate location estimated from it, data on ads shown and tapped, and crash and performance diagnostics to show and measure ads. If you do not allow tracking, ads are shown without the advertising identifier.
+If you do not have TimeSpinner Plus, the App shows ads through Google AdMob. Google may collect your device's advertising identifier (only if you allow tracking), IP address and the approximate location estimated from it, data on ads shown and tapped, and crash and performance diagnostics to show and measure ads. If you do not allow tracking, ads are shown without the advertising identifier.
 
 The App does not collect your name, email address, contacts, precise location or browsing history.
 
@@ -27,8 +27,8 @@ The App does not collect your name, email address, contacts, precise location or
 ## 2. Purpose of Use
 
 - Saving the events you create and showing them on the wheel
-- Unlocking Spider Plus for people who purchased it
-- Showing ads to people who do not have Spider Plus
+- Unlocking TimeSpinner Plus for people who purchased it
+- Showing ads to people who do not have TimeSpinner Plus
 
 ---
 
@@ -38,8 +38,8 @@ Except as described below or as required by law, we do not provide your informat
 
 | Service | Provider | Purpose |
 |---|---|---|
-| Google AdMob | Google LLC | Showing ads (only without Spider Plus) |
-| App Store / StoreKit | Apple Inc. | Purchases of Spider Plus |
+| Google AdMob | Google LLC | Showing ads (only without TimeSpinner Plus) |
+| App Store / StoreKit | Apple Inc. | Purchases of TimeSpinner Plus |
 
 Please refer to each company's official page for their privacy policies.
 
