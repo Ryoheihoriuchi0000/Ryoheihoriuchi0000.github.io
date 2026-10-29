@@ -4,7 +4,7 @@
 
 **TimeSpinner - Circle Calendar** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
 
-Last updated: October 29, 2026
+Last updated: October 30, 2026
 
 ---
 
@@ -24,8 +24,10 @@ Your password is kept by Firebase, and the developer cannot see it. When you log
 
 Even if you do not log in, the App creates an anonymous Firebase Authentication account (a random ID) at launch to count the number of users. The anonymous account is never linked to your events, tags, email address or any other information that identifies you.
 
-### 1-3. Calendar Import (TimeSpinner Plus)
-If you turn on Calendar Import in Settings and allow access to calendars, the App reads events in the iPhone Calendar (including iCloud, Google and other accounts added in Settings) and shows them on the wheel. Imported events are only shown on your device. They are never stored, synced or sent. The App never writes to your calendars.
+### 1-3. Calendar Integration (TimeSpinner Plus)
+**Calendar Import**: If you turn on Calendar Import in Settings and allow access to calendars, the App reads events in the iPhone Calendar (including iCloud, Google and other accounts added in Settings) and shows them on the wheel. Imported events are only shown on your device. They are never stored, synced or sent.
+
+**Write to Calendar**: If you turn on Write to Calendar in Settings and allow access to calendars, the App writes its events (title, date and time, repeat, notes and URL) to the TimeSpinner calendar in the Calendar app. Events you edit, add or delete in the TimeSpinner calendar are also changed in the App. The TimeSpinner calendar is created in the default account of the Calendar app (such as iCloud) and is synced according to the settings of that account. Nothing is sent to the developer's servers. When you turn it off, the TimeSpinner calendar is deleted and the events in the App are kept.
 
 ### 1-4. Settings stored on your device
 Colors and display settings are stored only on your device and are not synced.
