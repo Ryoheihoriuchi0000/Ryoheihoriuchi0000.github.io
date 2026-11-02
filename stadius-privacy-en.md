@@ -4,7 +4,7 @@
 
 **Studypress** (iOS, hereinafter "the App") protects users' personal information appropriately in accordance with this Privacy Policy.
 
-Last updated: October 24, 2026
+Last updated: November 2, 2026
 
 ---
 
@@ -37,7 +37,7 @@ The App does not collect any other activity history, location information, conta
 
 ## 2. Handling of Camera Video
 
-During a slot, your device's camera video is blurred and then reduced to **64×64 pixels** before it is sent.
+During a slot, your device's camera video is blurred and then reduced to **240×240 pixels** before it is sent.
 
 - The reduction is done on your device; video at its original resolution never leaves your device
 - Because of this reduction, the original video cannot be restored
