@@ -35,6 +35,9 @@ Picket Plus を利用していない場合、Google AdMob による広告を表�
 - 匿名 ID は端末ごとに発行され、本アプリを削除して入れ直すと別の ID になります
 - 通信できない環境でも、本アプリの機能はすべて使えます
 
+### 1-7. 広告の出し方の設定（Firebase Remote Config）
+起動時の広告を何回に1回出すかの設定を読むため、Google の Firebase Remote Config を使用します。このとき、端末の国・言語・時間帯・OS の版が Google に送られます。
+
 本アプリは、氏名、連絡先、正確な位置情報、閲覧履歴を収集しません。
 
 ---
@@ -57,6 +60,7 @@ Picket Plus を利用していない場合、Google AdMob による広告を表�
 | Google AdMob | Google LLC | 広告の表示（Picket Plus を利用していない場合のみ） |
 | App Store / StoreKit | Apple Inc. | Picket Plus の購入 |
 | Firebase Authentication | Google LLC | 利用者数の計測（匿名 ID のみ） |
+| Firebase Remote Config | Google LLC | 広告の出し方の設定を読む |
 
 各社のプライバシーポリシーは、各社の公式ページをご確認ください。
 

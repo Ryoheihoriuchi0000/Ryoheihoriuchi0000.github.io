@@ -35,6 +35,9 @@ Picket Plus를 이용하지 않는 경우 Google AdMob 광고를 표시합니다
 - 익명 ID는 기기마다 발급되며, 본 앱을 삭제하고 다시 설치하면 다른 ID가 됩니다.
 - 통신할 수 없는 환경에서도 본 앱의 모든 기능을 사용할 수 있습니다.
 
+### 1-7. 광고 설정(Firebase Remote Config)
+앱을 열 때 광고를 몇 번에 한 번 표시할지 설정을 읽기 위해 Google Firebase Remote Config를 사용합니다. 이때 기기의 국가, 언어, 시간대, OS 버전이 Google로 전송됩니다.
+
 본 앱은 이름, 연락처, 정확한 위치, 방문 기록을 수집하지 않습니다.
 
 ---
@@ -57,6 +60,7 @@ Picket Plus를 이용하지 않는 경우 Google AdMob 광고를 표시합니다
 | Google AdMob | Google LLC | 광고 표시(Picket Plus를 이용하지 않는 경우에만) |
 | App Store / StoreKit | Apple Inc. | Picket Plus 구입 |
 | Firebase Authentication | Google LLC | 사용자 수 집계(익명 ID만) |
+| Firebase Remote Config | Google LLC | 광고 설정 읽기 |
 
 각 회사의 개인정보 처리방침은 각 회사의 공식 페이지를 확인하십시오.
 

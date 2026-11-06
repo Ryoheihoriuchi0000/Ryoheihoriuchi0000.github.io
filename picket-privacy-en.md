@@ -35,6 +35,9 @@ To understand roughly how many people use the App, it uses anonymous authenticat
 - The anonymous ID is issued per device. Deleting and reinstalling the App gives a different ID.
 - All features of the App work without a network connection.
 
+### 1-7. Ad Settings (Firebase Remote Config)
+To read how often to show the ad when the App opens, the App uses Google's Firebase Remote Config. Your device's country, language, time zone and OS version are sent to Google.
+
 The App does not collect your name, contact details, precise location or browsing history.
 
 ---
@@ -57,6 +60,7 @@ Except as listed below or as required by law, information is not shared with thi
 | Google AdMob | Google LLC | Showing ads (only without Picket Plus) |
 | App Store / StoreKit | Apple Inc. | Picket Plus purchases |
 | Firebase Authentication | Google LLC | Counting users (anonymous ID only) |
+| Firebase Remote Config | Google LLC | Reading ad settings |
 
 See each company's official page for its privacy policy.
 

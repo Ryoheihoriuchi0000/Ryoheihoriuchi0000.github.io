@@ -35,6 +35,9 @@ Picket Plus 的購買由 Apple 處理。本 App 透過 Apple 確認購買狀態,
 - 匿名 ID 依裝置發放,刪除並重新安裝本 App 後會變成另一個 ID。
 - 在無法連線的環境中,本 App 的所有功能仍可使用。
 
+### 1-7. 廣告設定(Firebase Remote Config)
+為了讀取開啟 App 時每幾次顯示一次廣告的設定,本 App 使用 Google Firebase Remote Config。此時裝置的國家或地區、語言、時區和作業系統版本會傳送給 Google。
+
 本 App 不會收集姓名、聯絡方式、精確位置和瀏覽記錄。
 
 ---
@@ -57,6 +60,7 @@ Picket Plus 的購買由 Apple 處理。本 App 透過 Apple 確認購買狀態,
 | Google AdMob | Google LLC | 顯示廣告(僅在未使用 Picket Plus 時) |
 | App Store / StoreKit | Apple Inc. | 購買 Picket Plus |
 | Firebase Authentication | Google LLC | 統計使用者人數(僅匿名 ID) |
+| Firebase Remote Config | Google LLC | 讀取廣告設定 |
 
 各公司的隱私權政策請參閱其官方頁面。
 
