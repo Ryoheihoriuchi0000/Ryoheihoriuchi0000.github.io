@@ -25,6 +25,16 @@ Apple processes Picket Plus purchases. The App checks the purchase status throug
 ### 1-5. Ads
 If you do not have Picket Plus, the App shows ads through Google AdMob. Google may collect your device's advertising identifier (only if you allow tracking), IP address and the approximate location estimated from it, data on ads shown and tapped, and crash and performance diagnostics to show and measure ads. If you do not allow tracking, ads are shown without the advertising identifier. You can change the tracking permission at any time in the Settings app.
 
+### 1-6. Counting Users (Firebase Authentication)
+To understand roughly how many people use the App, it uses anonymous authentication from Google's Firebase Authentication.
+
+- On first launch, a random string called an anonymous ID is issued.
+- This ID is never linked to your email address, name, phone number or other personal information. There is no sign-in screen and no account registration.
+- The developer can only see aggregate numbers: daily users, monthly users and the total number of IDs issued.
+- Your photos, what you take and which features you use are not sent.
+- The anonymous ID is issued per device. Deleting and reinstalling the App gives a different ID.
+- All features of the App work without a network connection.
+
 The App does not collect your name, contact details, precise location or browsing history.
 
 ---
@@ -34,6 +44,7 @@ The App does not collect your name, contact details, precise location or browsin
 - To show your latest photos on the widget and the Lock Screen
 - To provide features to users who purchase Picket Plus
 - To show ads to users without Picket Plus
+- To understand roughly how many people use the App
 
 ---
 
@@ -45,6 +56,7 @@ Except as listed below or as required by law, information is not shared with thi
 |---|---|---|
 | Google AdMob | Google LLC | Showing ads (only without Picket Plus) |
 | App Store / StoreKit | Apple Inc. | Picket Plus purchases |
+| Firebase Authentication | Google LLC | Counting users (anonymous ID only) |
 
 See each company's official page for its privacy policy.
 

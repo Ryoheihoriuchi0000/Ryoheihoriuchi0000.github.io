@@ -25,6 +25,16 @@ Picket Plus 的购买由 Apple 处理。本应用通过 Apple 确认购买状态
 ### 1-5. 广告
 未使用 Picket Plus 时,本应用会显示 Google AdMob 广告。Google 可能会为显示和衡量广告而收集设备的广告标识符(仅在您允许跟踪时)、IP 地址及由此推测的大致位置、广告显示和轻点相关信息、崩溃和运行诊断信息。如果不允许跟踪,则会在不使用广告标识符的情况下显示广告。您可随时在"设置"应用中更改跟踪权限。
 
+### 1-6. 统计用户数(Firebase Authentication)
+为了了解大致的用户数,本应用使用 Google Firebase Authentication 的匿名认证。
+
+- 首次启动时,会发放一个随机字符串的匿名 ID。
+- 该 ID 不会与电子邮件地址、姓名、电话号码等个人信息关联。没有登录画面,也无需注册账户。
+- 开发者只能看到汇总后的数字:每天的用户数、每月的用户数和已发放 ID 的总数。
+- 不会发送照片、拍摄的内容以及使用了哪些功能。
+- 匿名 ID 按设备发放,删除并重新安装本应用后会变成另一个 ID。
+- 在无法联网的环境中,本应用的所有功能仍可使用。
+
 本应用不会收集姓名、联系方式、精确位置和浏览记录。
 
 ---
@@ -34,6 +44,7 @@ Picket Plus 的购买由 Apple 处理。本应用通过 Apple 确认购买状态
 - 在小组件和锁定屏幕上显示最新照片
 - 向购买 Picket Plus 的用户提供功能
 - 向未使用 Picket Plus 的用户显示广告
+- 了解大致的用户数
 
 ---
 
@@ -45,6 +56,7 @@ Picket Plus 的购买由 Apple 处理。本应用通过 Apple 确认购买状态
 |---|---|---|
 | Google AdMob | Google LLC | 显示广告(仅在未使用 Picket Plus 时) |
 | App Store / StoreKit | Apple Inc. | 购买 Picket Plus |
+| Firebase Authentication | Google LLC | 统计用户数(仅匿名 ID) |
 
 各公司的隐私政策请参阅其官方页面。
 
