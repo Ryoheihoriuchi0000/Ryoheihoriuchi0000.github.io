@@ -34,12 +34,24 @@ published under the AdMob publisher account `pub-8966340827917305`.
 ## Pace
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/pace-privacy.html) — `pace-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/pace-privacy-en.html) — `pace-privacy-en.html`
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/pace-privacy-ko.html) — `pace-privacy-ko.html`
+- [Privacy Policy (繁體中文)](https://ryoheihoriuchi0000.github.io/pace-privacy-zh-Hant.html) — `pace-privacy-zh-Hant.html`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/pace-support.html) — `pace-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/pace-support-en.html) — `pace-support-en.html`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/pace-support-ko.html) — `pace-support-ko.html`
+- [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/pace-support-zh-Hant.html) — `pace-support-zh-Hant.html`
 
 ## Studypress
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/stadius-privacy.html) — `stadius-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/stadius-privacy-en.html) — `stadius-privacy-en.html`
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/stadius-privacy-ko.html) — `stadius-privacy-ko.html`
+- [Privacy Policy (繁體中文)](https://ryoheihoriuchi0000.github.io/stadius-privacy-zh-Hant.html) — `stadius-privacy-zh-Hant.html`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/stadius-support.html) — `stadius-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/stadius-support-en.html) — `stadius-support-en.html`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/stadius-support-ko.html) — `stadius-support-ko.html`
+- [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/stadius-support-zh-Hant.html) — `stadius-support-zh-Hant.html`
 
 ## ExtraSticky
 
@@ -73,6 +85,37 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/janken-privacy-zh.html) — `janken-privacy-zh.html`
 - [Support (简体中文)](https://ryoheihoriuchi0000.github.io/janken-support-zh.html) — `janken-support-zh.html`
 
+## TimeSpinner
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/spider-privacy.html) — `spider-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/spider-privacy-en.html) — `spider-privacy-en.html`
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/spider-privacy-ko.html) — `spider-privacy-ko.html`
+- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/spider-privacy-zh-Hans.html) — `spider-privacy-zh-Hans.html`
+- [Privacy Policy (繁體中文)](https://ryoheihoriuchi0000.github.io/spider-privacy-zh-Hant.html) — `spider-privacy-zh-Hant.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/spider-support.html) — `spider-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/spider-support-en.html) — `spider-support-en.html`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/spider-support-ko.html) — `spider-support-ko.html`
+- [Support (简体中文)](https://ryoheihoriuchi0000.github.io/spider-support-zh-Hans.html) — `spider-support-zh-Hans.html`
+- [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/spider-support-zh-Hant.html) — `spider-support-zh-Hant.html`
+
+## Picket
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/picket-privacy.html) — `picket-privacy.html`
+- [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/picket-privacy-en.html) — `picket-privacy-en.html`
+- [Privacy Policy (한국어)](https://ryoheihoriuchi0000.github.io/picket-privacy-ko.html) — `picket-privacy-ko.html`
+- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/picket-privacy-zh-Hans.html) — `picket-privacy-zh-Hans.html`
+- [Privacy Policy (繁體中文)](https://ryoheihoriuchi0000.github.io/picket-privacy-zh-Hant.html) — `picket-privacy-zh-Hant.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/picket-support.html) — `picket-support.html`
+- [Support (English)](https://ryoheihoriuchi0000.github.io/picket-support-en.html) — `picket-support-en.html`
+- [Support (한국어)](https://ryoheihoriuchi0000.github.io/picket-support-ko.html) — `picket-support-ko.html`
+- [Support (简体中文)](https://ryoheihoriuchi0000.github.io/picket-support-zh-Hans.html) — `picket-support-zh-Hans.html`
+- [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/picket-support-zh-Hant.html) — `picket-support-zh-Hant.html`
+
+## Adhack
+
+- [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/adhack-privacy.html) — `adhack-privacy.html`
+- [Support (日本語)](https://ryoheihoriuchi0000.github.io/adhack-support.html) — `adhack-support.html`
+
 
 
 ## SELECT
@@ -81,6 +124,9 @@ published under the AdMob publisher account `pub-8966340827917305`.
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios.html) — `Select-PRIVACY_POLICY-ios.html`
 - [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-en.html) — `Select-PRIVACY_POLICY-ios-en.html`
+- [Privacy Policy (العربية)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-ar.html) — `Select-PRIVACY_POLICY-ios-ar.html`
+- [Privacy Policy (简体中文)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-zh-Hans.html) — `Select-PRIVACY_POLICY-ios-zh-Hans.html`
+- [Privacy Policy (繁體中文)](https://ryoheihoriuchi0000.github.io/Select-PRIVACY_POLICY-ios-zh-Hant.html) — `Select-PRIVACY_POLICY-ios-zh-Hant.html`
 - [Support (日本語)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios.html) — `Select-SUPPORT-ios.html`
 - [Support (English)](https://ryoheihoriuchi0000.github.io/Select-SUPPORT-ios-en.html) — `Select-SUPPORT-ios-en.html`
 
