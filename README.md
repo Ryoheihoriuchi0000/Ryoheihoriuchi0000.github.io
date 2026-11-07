@@ -53,7 +53,7 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Support (한국어)](https://ryoheihoriuchi0000.github.io/stadius-support-ko.html) — `stadius-support-ko.html`
 - [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/stadius-support-zh-Hant.html) — `stadius-support-zh-Hant.html`
 
-## ExtraSticky
+## Laynotes
 
 - [Privacy Policy (日本語)](https://ryoheihoriuchi0000.github.io/fusen-privacy.html) — `fusen-privacy.html`
 - [Privacy Policy (English)](https://ryoheihoriuchi0000.github.io/fusen-privacy-en.html) — `fusen-privacy-en.html`
