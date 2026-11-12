@@ -97,6 +97,11 @@ published under the AdMob publisher account `pub-8966340827917305`.
 - [Support (한국어)](https://ryoheihoriuchi0000.github.io/spider-support-ko.html) — `spider-support-ko.html`
 - [Support (简体中文)](https://ryoheihoriuchi0000.github.io/spider-support-zh-Hans.html) — `spider-support-zh-Hans.html`
 - [Support (繁體中文)](https://ryoheihoriuchi0000.github.io/spider-support-zh-Hant.html) — `spider-support-zh-Hant.html`
+- [Privacy Policy for Android (日本語)](https://ryoheihoriuchi0000.github.io/spider-android-privacy.html) — `spider-android-privacy.html`
+- [Privacy Policy for Android (English)](https://ryoheihoriuchi0000.github.io/spider-android-privacy-en.html) — `spider-android-privacy-en.html`
+- [Privacy Policy for Android (한국어)](https://ryoheihoriuchi0000.github.io/spider-android-privacy-ko.html) — `spider-android-privacy-ko.html`
+- [Privacy Policy for Android (简体中文)](https://ryoheihoriuchi0000.github.io/spider-android-privacy-zh-Hans.html) — `spider-android-privacy-zh-Hans.html`
+- [Privacy Policy for Android (繁體中文)](https://ryoheihoriuchi0000.github.io/spider-android-privacy-zh-Hant.html) — `spider-android-privacy-zh-Hant.html`
 
 ## Picket
 
