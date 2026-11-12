@@ -73,6 +73,8 @@ You can delete events and tags in the App. If you are logged in, events and tags
 
 Tapping Delete Account in Account in Settings deletes the events and tags stored in the cloud and your account, including your email address. Events and tags on your device remain. They also remain on your device when you log out.
 
+Delete Account in the App deletes your account and the events and tags in the cloud immediately. Requests by email are completed within 30 days of receipt.
+
 If you want to delete your account after deleting the App, contact us at the address below from the email address you used to log in. We will delete your account and the events and tags stored in the cloud.
 
 Deleting the App removes all events and settings stored on your device.
